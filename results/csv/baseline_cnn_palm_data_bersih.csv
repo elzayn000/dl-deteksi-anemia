@@ -1,0 +1,5 @@
+skema,algoritma,konfigurasi,n_latih_baris,n_val,n_test,n_test_anemic,TP,TN,FP,FN,acc,precision,sens,spec,f1,auc,val_acc,val_auc,baseline_mayoritas,pct_prediksi_anemic,parameter
+70:10:20,AlexNet,"SGD lr=0,01 momentum=0.0, L2=0,0001, ReLU, 10 epoch [1]",1815,52,104,60,60,0,44,0,57.69,57.69,100.0,0.0,73.17,53.18,57.69,55.76,57.69,100.0,4583169
+70:10:20,MobileNetV2 (transfer learning),"Adam lr=1e-4, ImageNet beku, 10 epoch",1815,52,104,60,49,19,25,11,65.38,66.22,81.67,43.18,73.13,70.49,57.69,65.45,57.69,71.15,2259265
+80:10:10,AlexNet,"SGD lr=0,01 momentum=0.0, L2=0,0001, ReLU, 10 epoch [1]",2075,52,52,30,30,0,22,0,57.69,57.69,100.0,0.0,73.17,60.3,57.69,46.97,57.69,100.0,4583169
+80:10:10,MobileNetV2 (transfer learning),"Adam lr=1e-4, ImageNet beku, 10 epoch",2075,52,52,30,22,9,13,8,59.62,62.86,73.33,40.91,67.69,71.52,67.31,70.76,57.69,67.31,2259265

@@ -1,0 +1,7 @@
+skema,algoritma,catatan,n_latih_baris,n_val,n_test,n_test_anemic,TP,TN,FP,FN,acc,precision,sens,spec,f1,auc,val_acc,val_auc,baseline_mayoritas,pct_prediksi_anemic,epoch_berhenti,epoch_terbaik
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",modifikasi penulis,1815,52,104,60,60,0,44,0,57.69,57.69,100.0,0.0,73.17,52.88,57.69,56.36,57.69,100.0,10,10
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",modifikasi penulis,1815,52,104,60,60,0,44,0,57.69,57.69,100.0,0.0,73.17,56.36,57.69,64.55,57.69,100.0,21,16
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",modifikasi penulis,1815,52,104,60,52,22,22,8,71.15,70.27,86.67,50.0,77.61,77.65,67.31,71.36,57.69,71.15,40,40
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",modifikasi penulis,2075,52,52,30,30,0,22,0,57.69,57.69,100.0,0.0,73.17,60.61,57.69,46.06,57.69,100.0,10,10
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",modifikasi penulis,2075,52,52,30,30,0,22,0,57.69,57.69,100.0,0.0,73.17,66.21,57.69,54.7,57.69,100.0,14,9
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",modifikasi penulis,2075,52,52,30,25,12,10,5,71.15,71.43,83.33,54.55,76.92,77.73,65.38,75.3,57.69,67.31,40,40

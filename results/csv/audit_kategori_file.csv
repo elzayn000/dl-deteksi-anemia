@@ -1,0 +1,15 @@
+situs,nama,label,jumlah,contoh
+Palm,berkurung,anemic,2258,Anemic-260 (10).png | Anemic-260 (11).png | Anemic-260 (12).png | Anemic-260 (2).png
+Palm,berkurung,non-anemic,1476,Non-AnemicP-001 (2).png | Non-AnemicP-001 (3).png | Non-AnemicP-001 (4).png | Non-AnemicP-001 (5).png
+Palm,tanpa_kurung,anemic,304,Anemic-262.png | Anemic-264.png | Anemic-265.png | Anemic-266.png
+Palm,tanpa_kurung,non-anemic,222,Non-AnemicP-001.png | Non-AnemicP-002.png | Non-AnemicP-003.png | Non-AnemicP-004.png
+Nail,berkurung,anemic,2229,Anemic-FN-001 (10).png | Anemic-FN-001 (11).png | Anemic-FN-001 (12).png | Anemic-FN-001 (2).png
+Nail,berkurung,non-anemic,94,Non-anemic-Fin-001 (2).png | Non-anemic-Fin-001 (3).png | Non-anemic-Fin-001 (4).png | Non-anemic-Fin-001 (5).png
+Nail,berkurung,tidak_dikenali,1385,Anmeic-fn-0011 (2).png | Anmeic-fn-0011 2 (2).png | Anmeic-fn-0012 (2).png | Anmeic-fn-0012 2 (2).png
+Nail,tanpa_kurung,anemic,296,Anemic-FN-001.png | Anemic-FN-002.png | Anemic-FN-003.png | Anemic-FN-004.png
+Nail,tanpa_kurung,non-anemic,20,Non-anemic-Fin-001.png | Non-anemic-Fin-002 4.png | Non-anemic-Fin-002.png | Non-anemic-Fin-003.png
+Nail,tanpa_kurung,tidak_dikenali,240,Anmeic-fn-0001 1.png | Anmeic-fn-0001.png | Anmeic-fn-001 1.png | Anmeic-fn-001.png
+Conjunctiva,berkurung,anemic,2240,Anemic-001 (10).png | Anemic-001 (11).png | Anemic-001 (12).png | Anemic-001 (2).png
+Conjunctiva,berkurung,non-anemic,1482,Non-Anemic-002 (2).png | Non-Anemic-002 (3).png | Non-Anemic-002 (4).png | Non-Anemic-002 (5).png
+Conjunctiva,tanpa_kurung,anemic,322,Anemic-001.png | Anemic-001FV.png | Anemic-001RA.png | Anemic-002.png
+Conjunctiva,tanpa_kurung,non-anemic,225,Non-Anemic-001.png | Non-Anemic-002.png | Non-Anemic-003.png | Non-Anemic-004.png

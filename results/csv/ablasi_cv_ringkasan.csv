@@ -1,0 +1,25 @@
+site_id,kelompok,perlakuan,acc_mean,auc_mean,f1_mean,sens_mean,spec_mean,acc_sd,auc_sd,f1_sd,sens_sd,spec_sd
+dengan,segmentasi,"Tanpa segmentasi, tanpa filter",72.04,76.4,79.54,82.62,51.7,2.35,2.16,1.8,2.9,5.26
+dengan,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),72.82,77.26,80.04,82.87,53.47,1.93,2.01,1.46,2.07,4.2
+dengan,segmentasi,Otsu,76.37,80.78,82.62,85.33,59.12,2.07,2.05,1.49,1.96,4.79
+dengan,segmentasi,Otsu + filter,71.67,76.9,79.68,84.43,47.12,1.61,2.74,1.19,2.17,4.68
+dengan,segmentasi,K-Means,76.34,81.03,82.59,85.24,59.21,2.32,2.29,1.59,1.84,5.88
+dengan,segmentasi,K-Means + filter,72.7,77.26,80.37,84.97,49.07,2.04,2.83,1.56,2.6,4.88
+dengan,normalisasi,White Balance (mask dari hasil),68.49,71.66,76.98,80.09,46.17,2.39,2.56,1.78,2.66,5.28
+dengan,normalisasi,CLAHE (mask dari hasil),70.28,73.7,78.29,81.56,48.56,2.07,2.44,1.69,2.94,4.66
+dengan,normalisasi,WB+CLAHE (mask dari hasil),64.79,67.89,74.2,76.99,41.31,2.93,3.47,2.22,3.26,6.84
+dengan,normalisasi,White Balance (mask citra asli),68.24,71.59,76.86,80.31,45.0,2.86,2.76,2.35,3.67,4.26
+dengan,normalisasi,CLAHE (mask citra asli),70.26,74.42,78.09,80.61,50.34,2.48,2.75,1.9,2.93,5.59
+dengan,normalisasi,WB+CLAHE (mask citra asli),67.87,70.7,76.67,80.36,43.83,2.77,2.68,2.28,3.54,4.5
+tanpa,segmentasi,"Tanpa segmentasi, tanpa filter",70.05,73.41,78.1,81.22,48.55,2.22,2.2,1.71,2.7,4.64
+tanpa,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),68.91,71.08,77.52,81.56,44.55,2.22,2.72,1.83,3.0,3.91
+tanpa,segmentasi,Otsu,72.31,74.34,79.8,83.22,51.29,2.01,2.64,1.64,3.03,5.09
+tanpa,segmentasi,Otsu + filter,68.58,70.58,77.75,83.52,39.82,1.91,3.04,1.53,2.67,4.13
+tanpa,segmentasi,K-Means,73.13,74.95,80.42,83.93,52.35,2.77,3.02,2.13,3.1,5.6
+tanpa,segmentasi,K-Means + filter,68.76,70.18,77.83,83.41,40.57,1.89,3.43,1.52,2.59,3.97
+tanpa,normalisasi,White Balance (mask dari hasil),63.18,59.87,73.78,78.85,33.05,2.73,3.11,2.28,3.87,4.45
+tanpa,normalisasi,CLAHE (mask dari hasil),68.37,67.88,77.24,81.64,42.83,2.66,3.46,2.12,3.24,4.93
+tanpa,normalisasi,WB+CLAHE (mask dari hasil),64.55,59.45,74.9,80.4,34.04,2.22,4.29,1.6,2.78,6.38
+tanpa,normalisasi,White Balance (mask citra asli),63.78,62.1,74.14,78.98,34.53,2.49,3.24,1.99,3.18,4.85
+tanpa,normalisasi,CLAHE (mask citra asli),66.84,67.78,76.12,80.41,40.73,3.05,3.46,2.38,3.66,5.51
+tanpa,normalisasi,WB+CLAHE (mask citra asli),64.77,61.57,75.07,80.65,34.21,2.89,3.62,2.16,3.05,5.17

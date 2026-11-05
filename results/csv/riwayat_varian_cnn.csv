@@ -1,0 +1,136 @@
+skema,algoritma,epoch,accuracy,loss,val_accuracy,val_loss
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",1,0.5554,0.6888,0.5769,0.6851
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",2,0.5807,0.6852,0.5769,0.6831
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",3,0.5813,0.6819,0.5769,0.6818
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",4,0.5813,0.6818,0.5769,0.6816
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",5,0.5813,0.6823,0.5769,0.6814
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",6,0.5813,0.6829,0.5769,0.6811
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",7,0.5813,0.6807,0.5769,0.6807
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",8,0.5813,0.6803,0.5769,0.6805
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",9,0.5813,0.681,0.5769,0.6803
+70:10:20,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",10,0.5813,0.6799,0.5769,0.6794
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",1,0.5736,0.6841,0.5769,0.6816
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",2,0.5813,0.6823,0.5769,0.6812
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",3,0.5813,0.6803,0.5769,0.6807
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",4,0.5813,0.6792,0.5769,0.6783
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",5,0.5824,0.677,0.5769,0.6805
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",6,0.5763,0.6817,0.5769,0.6761
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",7,0.5824,0.676,0.5769,0.6637
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",8,0.5758,0.6748,0.5769,0.682
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",9,0.5807,0.6794,0.5769,0.6673
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",10,0.5791,0.673,0.5769,0.6603
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",11,0.5719,0.6691,0.5769,0.6481
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",12,0.5791,0.6703,0.5769,0.6515
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",13,0.5713,0.6685,0.5769,0.6441
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",14,0.5769,0.6721,0.5769,0.6493
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",15,0.5719,0.6739,0.5769,0.6709
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",16,0.584,0.6719,0.5769,0.6408
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",17,0.578,0.6737,0.5769,0.6738
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",18,0.584,0.6683,0.5769,0.644
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",19,0.5752,0.6623,0.5769,0.6431
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",20,0.5736,0.6712,0.5769,0.6562
+70:10:20,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",21,0.5719,0.6661,0.5769,0.6448
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",1,0.5102,0.7646,0.5962,0.6996
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",2,0.5372,0.7405,0.5962,0.6871
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",3,0.5444,0.7223,0.6154,0.677
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",4,0.5598,0.7107,0.5769,0.6687
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",5,0.5664,0.7101,0.5192,0.6625
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",6,0.5846,0.696,0.5577,0.6567
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",7,0.5763,0.6887,0.5577,0.653
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",8,0.5912,0.6791,0.5769,0.649
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",9,0.5956,0.6724,0.5769,0.6455
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",10,0.6209,0.6578,0.5769,0.6425
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",11,0.632,0.6511,0.5769,0.6401
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",12,0.6402,0.6479,0.5962,0.6385
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",13,0.6287,0.6341,0.6154,0.637
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",14,0.6512,0.634,0.6154,0.6361
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",15,0.6375,0.6393,0.6154,0.6339
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",16,0.6479,0.6379,0.6154,0.6329
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",17,0.643,0.6285,0.6154,0.6315
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",18,0.6435,0.6251,0.6346,0.6305
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",19,0.6595,0.613,0.6346,0.6296
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",20,0.6485,0.6173,0.6346,0.6284
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",21,0.6711,0.611,0.6346,0.6287
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",22,0.6496,0.6203,0.6538,0.6274
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",23,0.6788,0.5982,0.6538,0.6269
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",24,0.6771,0.5971,0.6538,0.6272
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",25,0.6898,0.5939,0.6538,0.6265
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",26,0.6727,0.5918,0.6538,0.6265
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",27,0.6766,0.6019,0.6538,0.6255
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",28,0.6904,0.5818,0.6538,0.6248
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",29,0.6848,0.5859,0.6346,0.6252
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",30,0.6782,0.5896,0.6538,0.6244
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",31,0.6821,0.5816,0.6538,0.6238
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",32,0.6948,0.5761,0.6538,0.6242
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",33,0.6981,0.5739,0.6538,0.6239
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",34,0.7014,0.5759,0.6538,0.6242
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",35,0.6843,0.5798,0.6538,0.6242
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",36,0.6992,0.5641,0.6731,0.623
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",37,0.7047,0.5771,0.6346,0.6239
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",38,0.6893,0.5745,0.6731,0.6229
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",39,0.7168,0.5608,0.6538,0.6244
+70:10:20,"MobileNetV2 (transfer learning, early stopping)",40,0.7069,0.5631,0.6731,0.6223
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",1,0.5619,0.6894,0.5769,0.6854
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",2,0.5802,0.6842,0.5769,0.6832
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",3,0.5807,0.6817,0.5769,0.6828
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",4,0.5807,0.6826,0.5769,0.6825
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",5,0.5807,0.6817,0.5769,0.6824
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",6,0.5807,0.6781,0.5769,0.6824
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",7,0.5807,0.681,0.5769,0.6818
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",8,0.5807,0.6828,0.5769,0.6814
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",9,0.5807,0.6809,0.5769,0.6811
+80:10:10,"AlexNet-A (L2 skala sklearn, SGD, 10 epoch)",10,0.5807,0.6793,0.5769,0.6811
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",1,0.5745,0.6848,0.5769,0.6819
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",2,0.5807,0.6815,0.5769,0.6812
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",3,0.5807,0.6806,0.5769,0.6813
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",4,0.5807,0.6812,0.5769,0.6811
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",5,0.5807,0.6804,0.5769,0.6813
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",6,0.5807,0.679,0.5769,0.6833
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",7,0.5807,0.6805,0.5769,0.6809
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",8,0.5807,0.6803,0.5769,0.6803
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",9,0.5807,0.6798,0.5769,0.6779
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",10,0.5807,0.6759,0.5769,0.6823
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",11,0.5807,0.6807,0.5769,0.6813
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",12,0.5807,0.6807,0.5769,0.6813
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",13,0.5807,0.6812,0.5769,0.6813
+80:10:10,"AlexNet-B (L2 skala sklearn, SGD momentum 0,9, early stopping)",14,0.5807,0.6812,0.5769,0.6813
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",1,0.4901,0.7723,0.5577,0.6806
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",2,0.5639,0.7258,0.5962,0.6642
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",3,0.5398,0.7218,0.5962,0.6513
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",4,0.5547,0.7052,0.6154,0.6394
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",5,0.5677,0.6979,0.6154,0.6293
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",6,0.5831,0.6848,0.6538,0.6221
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",7,0.5904,0.6783,0.6731,0.6164
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",8,0.5976,0.6646,0.6731,0.6113
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",9,0.6096,0.6594,0.6731,0.6076
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",10,0.6231,0.6602,0.6731,0.6046
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",11,0.6222,0.66,0.6731,0.6006
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",12,0.627,0.6519,0.6731,0.5966
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",13,0.6328,0.6427,0.6731,0.5939
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",14,0.6342,0.6412,0.6731,0.591
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",15,0.6593,0.6297,0.6538,0.5878
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",16,0.6308,0.6349,0.6538,0.5868
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",17,0.6549,0.6288,0.6731,0.5851
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",18,0.6622,0.6234,0.6538,0.583
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",19,0.653,0.6223,0.6731,0.5817
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",20,0.653,0.6164,0.6731,0.5805
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",21,0.6631,0.6096,0.6731,0.5773
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",22,0.6631,0.6144,0.6731,0.5763
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",23,0.6713,0.6016,0.6538,0.5736
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",24,0.6728,0.6042,0.6731,0.5727
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",25,0.6819,0.6022,0.6731,0.5705
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",26,0.6728,0.6006,0.6731,0.5694
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",27,0.6839,0.5888,0.6731,0.5691
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",28,0.6819,0.5944,0.6731,0.5677
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",29,0.6776,0.5911,0.6731,0.5665
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",30,0.6954,0.5851,0.6731,0.5662
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",31,0.694,0.5837,0.6923,0.5642
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",32,0.6925,0.5796,0.6923,0.5633
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",33,0.6848,0.5847,0.6923,0.5624
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",34,0.7036,0.578,0.6923,0.5602
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",35,0.7022,0.5746,0.6923,0.5597
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",36,0.7036,0.5726,0.6731,0.5589
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",37,0.6945,0.5735,0.6923,0.5583
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",38,0.6983,0.5759,0.6923,0.5575
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",39,0.7113,0.563,0.6731,0.5562
+80:10:10,"MobileNetV2 (transfer learning, early stopping)",40,0.7051,0.5633,0.6538,0.556

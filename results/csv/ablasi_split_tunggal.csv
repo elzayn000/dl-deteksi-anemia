@@ -1,0 +1,49 @@
+skema,site_id,kelompok,perlakuan,n_test,n_test_anemic,TP,TN,FP,FN,acc,sens,spec,f1,auc,baseline_mayoritas,mcnemar_p_vs_referensi
+70:10:20,dengan,segmentasi,"Tanpa segmentasi, tanpa filter",269,177,142,52,40,35,72.12,80.23,56.52,79.11,77.08,65.8,0.81
+70:10:20,dengan,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),269,177,148,49,43,29,73.23,83.62,53.26,80.43,76.83,65.8,1.0
+70:10:20,dengan,segmentasi,Otsu,269,177,150,58,34,27,77.32,84.75,63.04,83.1,80.33,65.8,0.21
+70:10:20,dengan,segmentasi,Otsu + filter,269,177,143,45,47,34,69.89,80.79,48.91,77.93,77.44,65.8,0.26
+70:10:20,dengan,segmentasi,K-Means,269,177,152,51,41,25,75.46,85.88,55.43,82.16,78.81,65.8,0.53
+70:10:20,dengan,segmentasi,K-Means + filter,269,177,142,51,41,35,71.75,80.23,55.43,78.89,76.79,65.8,0.67
+70:10:20,dengan,normalisasi,White Balance (mask dari hasil),269,177,138,39,53,39,65.8,77.97,42.39,75.0,69.35,65.8,0.04
+70:10:20,dengan,normalisasi,CLAHE (mask dari hasil),269,177,146,41,51,31,69.52,82.49,44.57,78.07,74.48,65.8,0.28
+70:10:20,dengan,normalisasi,WB+CLAHE (mask dari hasil),269,177,141,47,45,36,69.89,79.66,51.09,77.69,70.64,65.8,0.4
+70:10:20,dengan,normalisasi,White Balance (mask citra asli),269,177,136,42,50,41,66.17,76.84,45.65,74.93,72.76,65.8,0.04
+70:10:20,dengan,normalisasi,CLAHE (mask citra asli),269,177,148,48,44,29,72.86,83.62,52.17,80.22,73.66,65.8,1.0
+70:10:20,dengan,normalisasi,WB+CLAHE (mask citra asli),269,177,133,50,42,44,68.03,75.14,54.35,75.57,68.75,65.8,0.16
+70:10:20,tanpa,segmentasi,"Tanpa segmentasi, tanpa filter",269,177,141,49,43,36,70.63,79.66,53.26,78.12,74.8,65.8,0.91
+70:10:20,tanpa,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),269,177,149,43,49,28,71.38,84.18,46.74,79.47,72.44,65.8,1.0
+70:10:20,tanpa,segmentasi,Otsu,269,177,147,50,42,30,73.23,83.05,54.35,80.33,74.77,65.8,0.65
+70:10:20,tanpa,segmentasi,Otsu + filter,269,177,153,40,52,24,71.75,86.44,43.48,80.1,75.97,65.8,1.0
+70:10:20,tanpa,segmentasi,K-Means,269,177,151,51,41,26,75.09,85.31,55.43,81.84,75.06,65.8,0.28
+70:10:20,tanpa,segmentasi,K-Means + filter,269,177,153,44,48,24,73.23,86.44,47.83,80.95,73.15,65.8,0.58
+70:10:20,tanpa,normalisasi,White Balance (mask dari hasil),269,177,135,34,58,42,62.83,76.27,36.96,72.97,60.14,65.8,0.02
+70:10:20,tanpa,normalisasi,CLAHE (mask dari hasil),269,177,143,39,53,34,67.66,80.79,42.39,76.68,68.23,65.8,0.31
+70:10:20,tanpa,normalisasi,WB+CLAHE (mask dari hasil),269,177,142,35,57,35,65.8,80.23,38.04,75.53,62.71,65.8,0.13
+70:10:20,tanpa,normalisasi,White Balance (mask citra asli),269,177,142,33,59,35,65.06,80.23,35.87,75.13,63.3,65.8,0.1
+70:10:20,tanpa,normalisasi,CLAHE (mask citra asli),269,177,147,43,49,30,70.63,83.05,46.74,78.82,70.71,65.8,0.89
+70:10:20,tanpa,normalisasi,WB+CLAHE (mask citra asli),269,177,133,33,59,44,61.71,75.14,35.87,72.09,60.14,65.8,0.01
+80:10:10,dengan,segmentasi,"Tanpa segmentasi, tanpa filter",135,89,69,27,19,20,71.11,77.53,58.7,77.97,75.13,65.93,0.72
+80:10:10,dengan,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),135,89,75,24,22,14,73.33,84.27,52.17,80.65,76.82,65.93,1.0
+80:10:10,dengan,segmentasi,Otsu,135,89,79,29,17,10,80.0,88.76,63.04,85.41,81.83,65.93,0.15
+80:10:10,dengan,segmentasi,Otsu + filter,135,89,70,23,23,19,68.89,78.65,50.0,76.92,71.96,65.93,0.29
+80:10:10,dengan,segmentasi,K-Means,135,89,78,27,19,11,77.78,87.64,58.7,83.87,81.68,65.93,0.38
+80:10:10,dengan,segmentasi,K-Means + filter,135,89,71,22,24,18,68.89,79.78,47.83,77.17,74.23,65.93,0.29
+80:10:10,dengan,normalisasi,White Balance (mask dari hasil),135,89,70,22,24,19,68.15,78.65,47.83,76.5,69.03,65.93,0.31
+80:10:10,dengan,normalisasi,CLAHE (mask dari hasil),135,89,78,23,23,11,74.81,87.64,50.0,82.11,78.65,65.93,0.84
+80:10:10,dengan,normalisasi,WB+CLAHE (mask dari hasil),135,89,74,19,27,15,68.89,83.15,41.3,77.89,74.33,65.93,0.46
+80:10:10,dengan,normalisasi,White Balance (mask citra asli),135,89,71,18,28,18,65.93,79.78,39.13,75.53,72.64,65.93,0.17
+80:10:10,dengan,normalisasi,CLAHE (mask citra asli),135,89,75,25,21,14,74.07,84.27,54.35,81.08,77.11,65.93,1.0
+80:10:10,dengan,normalisasi,WB+CLAHE (mask citra asli),135,89,67,22,24,22,65.93,75.28,47.83,74.44,70.13,65.93,0.18
+80:10:10,tanpa,segmentasi,"Tanpa segmentasi, tanpa filter",135,89,69,25,21,20,69.63,77.53,54.35,77.09,75.11,65.93,0.54
+80:10:10,tanpa,segmentasi+normalisasi,Tanpa segmentasi + filter (Original),135,89,78,21,25,11,73.33,87.64,45.65,81.25,75.06,65.93,1.0
+80:10:10,tanpa,segmentasi,Otsu,135,89,75,28,18,14,76.3,84.27,60.87,82.42,80.39,65.93,0.62
+80:10:10,tanpa,segmentasi,Otsu + filter,135,89,78,19,27,11,71.85,87.64,41.3,80.41,71.1,65.93,0.84
+80:10:10,tanpa,segmentasi,K-Means,135,89,74,25,21,15,73.33,83.15,54.35,80.43,77.77,65.93,1.0
+80:10:10,tanpa,segmentasi,K-Means + filter,135,89,76,21,25,13,71.85,85.39,45.65,80.0,73.11,65.93,0.84
+80:10:10,tanpa,normalisasi,White Balance (mask dari hasil),135,89,70,16,30,19,63.7,78.65,34.78,74.07,58.6,65.93,0.07
+80:10:10,tanpa,normalisasi,CLAHE (mask dari hasil),135,89,74,21,25,15,70.37,83.15,45.65,78.72,70.15,65.93,0.61
+80:10:10,tanpa,normalisasi,WB+CLAHE (mask dari hasil),135,89,75,17,29,14,68.15,84.27,36.96,77.72,68.27,65.93,0.36
+80:10:10,tanpa,normalisasi,White Balance (mask citra asli),135,89,77,15,31,12,68.15,86.52,32.61,78.17,67.51,65.93,0.32
+80:10:10,tanpa,normalisasi,CLAHE (mask citra asli),135,89,75,21,25,14,71.11,84.27,45.65,79.37,72.42,65.93,0.7
+80:10:10,tanpa,normalisasi,WB+CLAHE (mask citra asli),135,89,75,16,30,14,67.41,84.27,34.78,77.32,58.67,65.93,0.27

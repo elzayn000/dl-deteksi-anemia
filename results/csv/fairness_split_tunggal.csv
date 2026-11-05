@@ -1,0 +1,49 @@
+kelompok,n,n_anemic,n_non,TP,TN,FP,FN,acc,sens,spec,auc,n_cukup,sens_ci_bawah,sens_ci_atas,spec_ci_bawah,spec_ci_atas,skema,fitur,pengelompokan
+Keseluruhan,269,177,92,148,49,43,29,73.23,83.62,53.26,76.83,True,77.46,88.34,43.14,63.12,70:10:20,Original,L 8-bit (ambang kode lama)
+Gelap (L<100),14,9,5,7,3,2,2,71.43,77.78,60.0,73.33,False,45.26,93.68,23.07,88.24,70:10:20,Original,L 8-bit (ambang kode lama)
+Sedang (100<=L<150),99,68,31,52,18,13,16,70.71,76.47,58.06,71.77,True,65.14,84.97,40.77,73.58,70:10:20,Original,L 8-bit (ambang kode lama)
+Terang (L>=150),156,100,56,89,28,28,11,75.0,89.0,50.0,80.39,True,81.37,93.75,37.33,62.67,70:10:20,Original,L 8-bit (ambang kode lama)
+Keseluruhan,269,177,92,148,49,43,29,73.23,83.62,53.26,76.83,True,77.46,88.34,43.14,63.12,70:10:20,Original,"ITA (Chardon, digabung)"
+Gelap (ITA<10),72,43,29,36,17,12,7,73.61,83.72,58.62,76.82,True,70.03,91.88,40.74,74.49,70:10:20,Original,"ITA (Chardon, digabung)"
+Menengah (10<=ITA<41),76,53,23,40,12,11,13,68.42,75.47,52.17,71.94,True,62.43,85.07,32.96,70.76,70:10:20,Original,"ITA (Chardon, digabung)"
+Terang (ITA>=41),121,81,40,72,20,20,9,76.03,88.89,50.0,80.31,True,80.21,94.04,35.2,64.8,70:10:20,Original,"ITA (Chardon, digabung)"
+Keseluruhan,269,177,92,148,49,43,29,73.23,83.62,53.26,76.83,True,77.46,88.34,43.14,63.12,70:10:20,Original,Tertil L* dalam situs
+T1 gelap,88,59,29,48,17,12,11,73.86,81.36,58.62,76.74,True,69.62,89.26,40.74,74.49,70:10:20,Original,Tertil L* dalam situs
+T2 tengah,84,61,23,49,10,13,12,70.24,80.33,43.48,69.85,True,68.69,88.37,25.63,63.19,70:10:20,Original,Tertil L* dalam situs
+T3 terang,97,57,40,51,22,18,6,75.26,89.47,55.0,82.63,True,78.88,95.09,39.83,69.29,70:10:20,Original,Tertil L* dalam situs
+Keseluruhan,269,177,92,150,58,34,27,77.32,84.75,63.04,80.33,True,78.72,89.3,52.84,72.2,70:10:20,Otsu,L 8-bit (ambang kode lama)
+Gelap (L<100),14,9,5,7,5,0,2,85.71,77.78,100.0,91.11,False,45.26,93.68,56.55,100.0,70:10:20,Otsu,L 8-bit (ambang kode lama)
+Sedang (100<=L<150),99,68,31,53,19,12,15,72.73,77.94,61.29,76.0,True,66.74,86.15,43.82,76.27,70:10:20,Otsu,L 8-bit (ambang kode lama)
+Terang (L>=150),156,100,56,90,34,22,10,79.49,90.0,60.71,82.07,True,82.56,94.48,47.63,72.42,70:10:20,Otsu,L 8-bit (ambang kode lama)
+Keseluruhan,269,177,92,150,58,34,27,77.32,84.75,63.04,80.33,True,78.72,89.3,52.84,72.2,70:10:20,Otsu,"ITA (Chardon, digabung)"
+Gelap (ITA<10),72,43,29,37,19,10,6,77.78,86.05,65.52,80.83,True,72.74,93.44,47.34,80.06,70:10:20,Otsu,"ITA (Chardon, digabung)"
+Menengah (10<=ITA<41),76,53,23,41,19,4,12,78.95,77.36,82.61,86.55,True,64.47,86.55,62.86,93.02,70:10:20,Otsu,"ITA (Chardon, digabung)"
+Terang (ITA>=41),121,81,40,72,20,20,9,76.03,88.89,50.0,78.86,True,80.21,94.04,35.2,64.8,70:10:20,Otsu,"ITA (Chardon, digabung)"
+Keseluruhan,269,177,92,150,58,34,27,77.32,84.75,63.04,80.33,True,78.72,89.3,52.84,72.2,70:10:20,Otsu,Tertil L* dalam situs
+T1 gelap,88,59,29,51,19,10,8,79.55,86.44,65.52,82.12,True,75.46,92.97,47.34,80.06,70:10:20,Otsu,Tertil L* dalam situs
+T2 tengah,84,61,23,48,14,9,13,73.81,78.69,60.87,79.33,True,66.88,87.1,40.79,77.84,70:10:20,Otsu,Tertil L* dalam situs
+T3 terang,97,57,40,51,25,15,6,78.35,89.47,62.5,80.88,True,78.88,95.09,47.03,75.78,70:10:20,Otsu,Tertil L* dalam situs
+Keseluruhan,135,89,46,75,24,22,14,73.33,84.27,52.17,76.82,True,75.31,90.39,38.14,65.88,80:10:10,Original,L 8-bit (ambang kode lama)
+Gelap (L<100),8,6,2,6,2,0,0,100.0,100.0,100.0,100.0,False,60.97,100.0,34.24,100.0,80:10:10,Original,L 8-bit (ambang kode lama)
+Sedang (100<=L<150),53,36,17,27,8,9,9,66.04,75.0,47.06,65.36,True,58.93,86.25,26.16,69.04,80:10:10,Original,L 8-bit (ambang kode lama)
+Terang (L>=150),74,47,27,42,14,13,5,75.68,89.36,51.85,81.8,True,77.41,95.37,33.99,69.26,80:10:10,Original,L 8-bit (ambang kode lama)
+Keseluruhan,135,89,46,75,24,22,14,73.33,84.27,52.17,76.82,True,75.31,90.39,38.14,65.88,80:10:10,Original,"ITA (Chardon, digabung)"
+Gelap (ITA<10),39,22,17,19,9,8,3,71.79,86.36,52.94,78.07,True,66.66,95.25,30.96,73.84,80:10:10,Original,"ITA (Chardon, digabung)"
+Menengah (10<=ITA<41),44,31,13,23,9,4,8,72.73,74.19,69.23,71.22,True,56.75,86.3,42.37,87.32,80:10:10,Original,"ITA (Chardon, digabung)"
+Terang (ITA>=41),52,36,16,33,6,10,3,75.0,91.67,37.5,80.73,True,78.17,97.13,18.48,61.36,80:10:10,Original,"ITA (Chardon, digabung)"
+Keseluruhan,135,89,46,75,24,22,14,73.33,84.27,52.17,76.82,True,75.31,90.39,38.14,65.88,80:10:10,Original,Tertil L* dalam situs
+T1 gelap,47,30,17,26,9,8,4,74.47,86.67,52.94,79.22,True,70.32,94.69,30.96,73.84,80:10:10,Original,Tertil L* dalam situs
+T2 tengah,45,34,11,27,6,5,7,73.33,79.41,54.55,74.33,True,63.2,89.65,28.01,78.73,80:10:10,Original,Tertil L* dalam situs
+T3 terang,43,25,18,22,9,9,3,72.09,88.0,50.0,76.67,True,70.04,95.83,29.03,70.97,80:10:10,Original,Tertil L* dalam situs
+Keseluruhan,135,89,46,79,29,17,10,80.0,88.76,63.04,81.83,True,80.54,93.78,48.6,75.48,80:10:10,Otsu,L 8-bit (ambang kode lama)
+Gelap (L<100),8,6,2,5,2,0,1,87.5,83.33,100.0,100.0,False,43.65,96.99,34.24,100.0,80:10:10,Otsu,L 8-bit (ambang kode lama)
+Sedang (100<=L<150),53,36,17,31,7,10,5,71.7,86.11,41.18,68.79,True,71.34,93.92,21.61,63.99,80:10:10,Otsu,L 8-bit (ambang kode lama)
+Terang (L>=150),74,47,27,43,20,7,4,85.14,91.49,74.07,87.0,True,80.07,96.64,55.32,86.83,80:10:10,Otsu,L 8-bit (ambang kode lama)
+Keseluruhan,135,89,46,79,29,17,10,80.0,88.76,63.04,81.83,True,80.54,93.78,48.6,75.48,80:10:10,Otsu,"ITA (Chardon, digabung)"
+Gelap (ITA<10),39,22,17,19,8,9,3,69.23,86.36,47.06,77.81,True,66.66,95.25,26.16,69.04,80:10:10,Otsu,"ITA (Chardon, digabung)"
+Menengah (10<=ITA<41),44,31,13,26,11,2,5,84.09,83.87,84.62,89.33,True,67.37,92.91,57.76,95.67,80:10:10,Otsu,"ITA (Chardon, digabung)"
+Terang (ITA>=41),52,36,16,34,10,6,2,84.62,94.44,62.5,81.08,True,81.86,98.46,38.64,81.52,80:10:10,Otsu,"ITA (Chardon, digabung)"
+Keseluruhan,135,89,46,79,29,17,10,80.0,88.76,63.04,81.83,True,80.54,93.78,48.6,75.48,80:10:10,Otsu,Tertil L* dalam situs
+T1 gelap,47,30,17,26,8,9,4,72.34,86.67,47.06,78.24,True,70.32,94.69,26.16,69.04,80:10:10,Otsu,Tertil L* dalam situs
+T2 tengah,45,34,11,30,7,4,4,82.22,88.24,63.64,75.67,True,73.38,95.33,35.38,84.83,80:10:10,Otsu,Tertil L* dalam situs
+T3 terang,43,25,18,23,14,4,2,86.05,92.0,77.78,89.33,True,75.03,97.78,54.78,91.0,80:10:10,Otsu,Tertil L* dalam situs
