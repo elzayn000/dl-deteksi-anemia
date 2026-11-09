@@ -1,7 +1,7 @@
-fitur,pengelompokan,kelompok_dipakai,selisih_maks_min_sens,p_permutasi_sens,selisih_maks_min_spes,p_permutasi_spes
-Original,L 8-bit (ambang kode lama),Gelap (L<100) | Sedang (100<=L<150) | Terang (L>=150),4.052,0.894,15.882,0.131
-Original,"ITA (Chardon, digabung)",Gelap (ITA<10) | Menengah (10<=ITA<41) | Terang (ITA>=41),5.87,0.927,16.378,0.024
-Original,Tertil L* dalam situs,T1 gelap | T2 tengah | T3 terang,4.513,0.258,9.174,0.226
-Otsu,L 8-bit (ambang kode lama),Gelap (L<100) | Sedang (100<=L<150) | Terang (L>=150),6.506,0.561,12.017,0.312
-Otsu,"ITA (Chardon, digabung)",Gelap (ITA<10) | Menengah (10<=ITA<41) | Terang (ITA>=41),8.683,0.422,13.985,0.082
-Otsu,Tertil L* dalam situs,T1 gelap | T2 tengah | T3 terang,5.033,0.147,7.713,0.348
+fitur,pengelompokan,kelompok_dipakai,selisih_maks_min_sens,p_permutasi_sens,selisih_maks_min_spes,p_permutasi_spes,p_bonferroni_12_sens,p_bonferroni_12_spec
+Original,L 8-bit (ambang kode lama),Gelap (L<100) | Sedang (100<=L<150) | Terang (L>=150),4.052,0.894,15.882,0.131,1.000,1.000
+Original,"ITA (Chardon, digabung)",Gelap (ITA<10) | Menengah (10<=ITA<41) | Terang (ITA>=41),5.87,0.927,16.378,0.024,1.000,0.288
+Original,Tertil L* dalam situs,T1 gelap | T2 tengah | T3 terang,4.513,0.258,9.174,0.226,1.000,1.000
+Otsu,L 8-bit (ambang kode lama),Gelap (L<100) | Sedang (100<=L<150) | Terang (L>=150),6.506,0.561,12.017,0.312,1.000,1.000
+Otsu,"ITA (Chardon, digabung)",Gelap (ITA<10) | Menengah (10<=ITA<41) | Terang (ITA>=41),8.683,0.422,13.985,0.082,1.000,0.984
+Otsu,Tertil L* dalam situs,T1 gelap | T2 tengah | T3 terang,5.033,0.147,7.713,0.348,1.000,1.000

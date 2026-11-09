@@ -1,45 +1,45 @@
-site_id,perlakuan,metrik,selisih_vs_referensi,ci95_bawah,ci95_atas,p_terkoreksi
-dengan,"Tanpa segmentasi, tanpa filter",auc,-0.8594,-3.4852,1.7663,0.5058
-dengan,"Tanpa segmentasi, tanpa filter",acc,-0.7732,-3.6455,2.0991,0.5836
-dengan,Otsu,auc,3.5149,0.6402,6.3896,0.0187
-dengan,Otsu,acc,3.5539,0.1508,6.957,0.0414
-dengan,Otsu + filter,auc,-0.3639,-2.9876,2.2598,0.7771
-dengan,Otsu + filter,acc,-1.145,-3.6749,1.385,0.3596
-dengan,K-Means,auc,3.7624,0.5814,6.9435,0.0224
-dengan,K-Means,acc,3.5242,-0.1581,7.2065,0.0598
-dengan,K-Means + filter,auc,-0.0087,-2.5514,2.534,0.9944
-dengan,K-Means + filter,acc,-0.119,-2.8065,2.5686,0.928
-dengan,White Balance (mask dari hasil),auc,-5.5998,-8.7339,-2.4658,0.0012
-dengan,White Balance (mask dari hasil),acc,-4.3271,-7.4916,-1.1627,0.0094
-dengan,CLAHE (mask dari hasil),auc,-3.5609,-6.2733,-0.8484,0.0122
-dengan,CLAHE (mask dari hasil),acc,-2.5428,-5.815,0.7295,0.1218
-dengan,WB+CLAHE (mask dari hasil),auc,-9.376,-13.3437,-5.4083,0.0001
-dengan,WB+CLAHE (mask dari hasil),acc,-8.0297,-11.9676,-4.0919,0.0003
-dengan,White Balance (mask citra asli),auc,-5.6725,-9.3155,-2.0294,0.0037
-dengan,White Balance (mask citra asli),acc,-4.5799,-8.9162,-0.2437,0.0393
-dengan,CLAHE (mask citra asli),auc,-2.8468,-4.9686,-0.725,0.0107
-dengan,CLAHE (mask citra asli),acc,-2.5576,-4.9589,-0.1563,0.0378
-dengan,WB+CLAHE (mask citra asli),auc,-6.5664,-9.832,-3.3009,0.0004
-dengan,WB+CLAHE (mask citra asli),acc,-4.9517,-8.7976,-1.1057,0.0138
-tanpa,"Tanpa segmentasi, tanpa filter",auc,2.3291,-1.0554,5.7136,0.1684
-tanpa,"Tanpa segmentasi, tanpa filter",acc,1.145,-2.4231,4.7131,0.5141
-tanpa,Otsu,auc,3.2595,-0.0336,6.5527,0.0522
-tanpa,Otsu,acc,3.4052,0.0092,6.8012,0.0494
-tanpa,Otsu + filter,auc,-0.4954,-3.3893,2.3985,0.7269
-tanpa,Otsu + filter,acc,-0.3271,-3.2177,2.5634,0.8173
-tanpa,K-Means,auc,3.8677,0.0901,7.6452,0.0452
-tanpa,K-Means,acc,4.223,-0.0573,8.5034,0.0529
-tanpa,K-Means + filter,auc,-0.9038,-3.987,2.1794,0.5509
-tanpa,K-Means + filter,acc,-0.1487,-2.9178,2.6204,0.9127
-tanpa,White Balance (mask dari hasil),auc,-11.2117,-15.6188,-6.8047,0.0
-tanpa,White Balance (mask dari hasil),acc,-5.7249,-9.867,-1.5828,0.0088
-tanpa,CLAHE (mask dari hasil),auc,-3.2026,-6.7374,0.3322,0.0737
-tanpa,CLAHE (mask dari hasil),acc,-0.5353,-4.2349,3.1642,0.7678
-tanpa,WB+CLAHE (mask dari hasil),auc,-11.6317,-16.3503,-6.9131,0.0
-tanpa,WB+CLAHE (mask dari hasil),acc,-4.3569,-7.4431,-1.2707,0.0076
-tanpa,White Balance (mask citra asli),auc,-8.9841,-13.0587,-4.9095,0.0001
-tanpa,White Balance (mask citra asli),acc,-5.1301,-8.9282,-1.332,0.0102
-tanpa,CLAHE (mask citra asli),auc,-3.3037,-6.3299,-0.2775,0.0337
-tanpa,CLAHE (mask citra asli),acc,-2.0669,-4.766,0.6322,0.1271
-tanpa,WB+CLAHE (mask citra asli),auc,-9.5114,-14.106,-4.9168,0.0003
-tanpa,WB+CLAHE (mask citra asli),acc,-4.1338,-8.0104,-0.2573,0.0376
+site_id,perlakuan,metrik,selisih_vs_referensi,ci95_bawah,ci95_atas,p_nadeau_bengio,p_holm_11_kontras_auc
+dengan,"Tanpa segmentasi, tanpa filter",auc,-0.8594,-3.4852,1.7663,0.5058,1.0000
+dengan,"Tanpa segmentasi, tanpa filter",acc,-0.7732,-3.6455,2.0991,0.5836,
+dengan,Otsu,auc,3.5149,0.6402,6.3896,0.0187,0.0935
+dengan,Otsu,acc,3.5539,0.1508,6.957,0.0414,
+dengan,Otsu + filter,auc,-0.3639,-2.9876,2.2598,0.7771,1.0000
+dengan,Otsu + filter,acc,-1.145,-3.6749,1.385,0.3596,
+dengan,K-Means,auc,3.7624,0.5814,6.9435,0.0224,0.0935
+dengan,K-Means,acc,3.5242,-0.1581,7.2065,0.0598,
+dengan,K-Means + filter,auc,-0.0087,-2.5514,2.534,0.9944,1.0000
+dengan,K-Means + filter,acc,-0.119,-2.8065,2.5686,0.928,
+dengan,White Balance (mask dari hasil),auc,-5.5998,-8.7339,-2.4658,0.0012,0.0108
+dengan,White Balance (mask dari hasil),acc,-4.3271,-7.4916,-1.1627,0.0094,
+dengan,CLAHE (mask dari hasil),auc,-3.5609,-6.2733,-0.8484,0.0122,0.0749
+dengan,CLAHE (mask dari hasil),acc,-2.5428,-5.815,0.7295,0.1218,
+dengan,WB+CLAHE (mask dari hasil),auc,-9.376,-13.3437,-5.4083,0.0001,0.0011
+dengan,WB+CLAHE (mask dari hasil),acc,-8.0297,-11.9676,-4.0919,0.0003,
+dengan,White Balance (mask citra asli),auc,-5.6725,-9.3155,-2.0294,0.0037,0.0296
+dengan,White Balance (mask citra asli),acc,-4.5799,-8.9162,-0.2437,0.0393,
+dengan,CLAHE (mask citra asli),auc,-2.8468,-4.9686,-0.725,0.0107,0.0749
+dengan,CLAHE (mask citra asli),acc,-2.5576,-4.9589,-0.1563,0.0378,
+dengan,WB+CLAHE (mask citra asli),auc,-6.5664,-9.832,-3.3009,0.0004,0.0040
+dengan,WB+CLAHE (mask citra asli),acc,-4.9517,-8.7976,-1.1057,0.0138,
+tanpa,"Tanpa segmentasi, tanpa filter",auc,2.3291,-1.0554,5.7136,0.1684,
+tanpa,"Tanpa segmentasi, tanpa filter",acc,1.145,-2.4231,4.7131,0.5141,
+tanpa,Otsu,auc,3.2595,-0.0336,6.5527,0.0522,
+tanpa,Otsu,acc,3.4052,0.0092,6.8012,0.0494,
+tanpa,Otsu + filter,auc,-0.4954,-3.3893,2.3985,0.7269,
+tanpa,Otsu + filter,acc,-0.3271,-3.2177,2.5634,0.8173,
+tanpa,K-Means,auc,3.8677,0.0901,7.6452,0.0452,
+tanpa,K-Means,acc,4.223,-0.0573,8.5034,0.0529,
+tanpa,K-Means + filter,auc,-0.9038,-3.987,2.1794,0.5509,
+tanpa,K-Means + filter,acc,-0.1487,-2.9178,2.6204,0.9127,
+tanpa,White Balance (mask dari hasil),auc,-11.2117,-15.6188,-6.8047,0.0,
+tanpa,White Balance (mask dari hasil),acc,-5.7249,-9.867,-1.5828,0.0088,
+tanpa,CLAHE (mask dari hasil),auc,-3.2026,-6.7374,0.3322,0.0737,
+tanpa,CLAHE (mask dari hasil),acc,-0.5353,-4.2349,3.1642,0.7678,
+tanpa,WB+CLAHE (mask dari hasil),auc,-11.6317,-16.3503,-6.9131,0.0,
+tanpa,WB+CLAHE (mask dari hasil),acc,-4.3569,-7.4431,-1.2707,0.0076,
+tanpa,White Balance (mask citra asli),auc,-8.9841,-13.0587,-4.9095,0.0001,
+tanpa,White Balance (mask citra asli),acc,-5.1301,-8.9282,-1.332,0.0102,
+tanpa,CLAHE (mask citra asli),auc,-3.3037,-6.3299,-0.2775,0.0337,
+tanpa,CLAHE (mask citra asli),acc,-2.0669,-4.766,0.6322,0.1271,
+tanpa,WB+CLAHE (mask citra asli),auc,-9.5114,-14.106,-4.9168,0.0003,
+tanpa,WB+CLAHE (mask citra asli),acc,-4.1338,-8.0104,-0.2573,0.0376,

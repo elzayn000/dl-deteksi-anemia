@@ -1,0 +1,5 @@
+site,raw_anemic,raw_non_anemic,raw_total,clean_anemic,clean_non_anemic,clean_total,anemic_percentage_clean
+Palm,304,222,526,301,218,519,58.0
+Nail,296,20,316,293,19,312,93.9
+Conjunctiva,322,225,547,291,223,514,56.6
+Pooled,922,467,1389,885,460,1345,65.8

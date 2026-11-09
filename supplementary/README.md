@@ -13,7 +13,7 @@ This folder contains the reader-facing supplementary tables associated with the 
 
 ## Use in the manuscript
 
-The yellow placeholder in Section III-A refers primarily to Supplementary Table S1, which contains the complete per-configuration baseline results (including precision, sensitivity, specificity, F1-score, and validation AUC). Table S2 and S3 provide additional CNN detail.
+Supplementary Table S1 provides expanded per-configuration baseline results (including precision, sensitivity, specificity, F1-score, and validation AUC where those values are available from the saved runs or manuscript). The Stacking Ensemble metrics are synchronized to Appendix A1 of the final experiment report; confusion counts are reconstructed from the reported class supports and rounded sensitivity/specificity. Validation accuracy is not reported and remains blank. Tables S2 and S3 provide the additional CNN configuration and training-history detail discussed alongside the CNN results.
 
 The tables are CSV files to keep them easy to inspect, version, and reuse. They can be opened in Excel or imported into spreadsheet software. The committed source CSVs remain available under `../results/csv/`.
 

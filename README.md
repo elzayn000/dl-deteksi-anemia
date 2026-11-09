@@ -70,6 +70,7 @@ See [notebooks/README.md](notebooks/README.md) for the exact notebook-to-experim
 ## Results and supplementary material
 
 - [All committed CSV outputs](results/csv/)
+- [Manuscript-aligned CSV exports for Tables I–IX](results/README.md)
 - [Confusion matrices](results/figures/confusion_matrix/)
 - [CNN training curves](results/figures/training-curves/)
 - [Supplementary material index](supplementary/README.md)
@@ -77,7 +78,7 @@ See [notebooks/README.md](notebooks/README.md) for the exact notebook-to-experim
 - [Supplementary Table S2 — CNN configurations and results](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
 - [Supplementary Table S3 — CNN epoch-wise training history](supplementary/Supplementary_Table_S3_CNN_Training_History.csv)
 
-Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes.
+Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The manuscript's Table II retains the selected-baseline accuracy and test AUC values. Supplementary Table S1 provides the full per-configuration baseline detail from Appendix A1 of the final experiment report; Stacking confusion counts are reconstructed from class supports and reported sensitivity/specificity, while validation accuracy remains blank because it is not reported. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
 
 ## Computational environment
 
@@ -94,3 +95,10 @@ If you use the code or supplementary tables, cite the associated manuscript and 
 ## Software license
 
 The original code and documentation contributed by Daniel Halasson Hasibuan, Indra Saputra, and Rasya Halim are released under the [MIT License](LICENSE). The MIT License applies only to the original materials owned by these contributors in this repository. Third-party datasets and other externally sourced materials remain subject to their respective licenses and terms of use.
+
+
+## Manuscript-aligned result exports
+
+The manuscript Table I–IX CSV exports are indexed in [results/README.md](results/README.md). They transcribe the values in the 9 November 2026 draft. They are not a substitute for the source notebooks or a claim that all experiments were rerun from scratch.
+
+For the detailed baseline outputs, note that the Stacking Ensemble accuracy/AUC values in the draft differ from the earlier saved Notebook 20 result. The earlier output is preserved as a computational-run snapshot; the reader-facing baseline and Supplementary Table S1 reflect the manuscript. Unreported Stacking confusion counts and derived metrics are intentionally left blank.

@@ -6,7 +6,7 @@ Table S1 reports the full model-level metrics for the 519 clean Palm images unde
 
 The reported metrics are accuracy, precision, sensitivity, specificity, F1-score, test AUC, validation accuracy, and validation AUC. TP, TN, FP, and FN are included to make the test counts transparent. Values ending in `_pct` are percentages. `n_train_augmented_rows` is the number of training rows after the five-view augmentation used by the relevant Palm baseline; it is not the number of distinct source photographs.
 
-The selected AlexNet row uses the reference configuration in the baseline CNN results. The MobileNetV2 row uses the early-stopping configuration reported in the manuscript (maximum 40 epochs). Its separate 10-epoch baseline result is retained in Table S2 for completeness.
+The selected AlexNet row uses the reference configuration in the baseline CNN results. The MobileNetV2 row uses the early-stopping configuration reported in the manuscript (maximum 40 epochs). Its separate 10-epoch baseline result is retained in Table S2 for completeness. For Stacking Ensemble, Table S1 takes accuracy, precision, sensitivity, specificity, F1, test AUC, and validation AUC from Appendix A1 of the final experiment report. TP/TN/FP/FN are reconstructed from the reported test supports and rounded sensitivity/specificity; validation accuracy remains blank because Appendix A1 does not report it.
 
 ## Supplementary Table S2 — CNN configurations
 
@@ -26,4 +26,4 @@ All three tables were assembled from the CSVs committed in `results/csv/`:
 - `riwayat_pelatihan_cnn.csv`
 - `riwayat_varian_cnn.csv`
 
-No metric was recalculated for these supplementary tables. The tables reorganize the committed results and preserve the source CSV values. See the notebooks for the exact feature extraction, split, augmentation, and model settings.
+Most metrics are organized from the committed experimental result CSVs. The Stacking Ensemble row in S1 is synchronized to Appendix A1 of the uploaded final experiment report. The manuscript's Table II remains unchanged: it reports selected baselines with accuracy and test AUC for both split schemes. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv. See the notebooks for the exact feature extraction, split, augmentation, and model settings.
