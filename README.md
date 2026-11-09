@@ -18,6 +18,7 @@ The experiments cover 14 algorithm families on clean Palm data (with two SVM con
 .
 ├── README.md
 ├── CITATION.cff
+├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 ├── dataset-info/
@@ -92,4 +93,4 @@ If you use the code or supplementary tables, cite the associated manuscript and 
 
 ## Software license
 
-No separate software license has been added. Please contact the authors before redistributing or reusing the code beyond the permissions that apply to the source datasets. A license should be added only after the code contributors have agreed on its terms.
+The original code and documentation contributed by Daniel Halasson Hasibuan, Indra Saputra, and Rasya Halim are released under the [MIT License](LICENSE). The MIT License applies only to the original materials owned by these contributors in this repository. Third-party datasets and other externally sourced materials remain subject to their respective licenses and terms of use.
