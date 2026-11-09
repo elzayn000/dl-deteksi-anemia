@@ -78,7 +78,7 @@ See [notebooks/README.md](notebooks/README.md) for the exact notebook-to-experim
 - [Supplementary Table S2 — CNN configurations and results](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
 - [Supplementary Table S3 — CNN epoch-wise training history](supplementary/Supplementary_Table_S3_CNN_Training_History.csv)
 
-Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The Stacking Ensemble row is synchronized to the values explicitly reported in the manuscript; metrics not stated in the draft are left blank rather than inferred from an earlier computational snapshot. The snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
+Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The manuscript's Table II retains the selected-baseline accuracy and test AUC values. Supplementary Table S1 provides the full per-configuration baseline detail from Appendix A1 of the final experiment report; Stacking confusion counts are reconstructed from class supports and reported sensitivity/specificity, while validation accuracy remains blank because it is not reported. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
 
 ## Computational environment
 
