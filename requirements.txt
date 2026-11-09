@@ -1,0 +1,17 @@
+# Python environment recorded in the saved experiment notebooks
+# Python patch versions observed: 3.13.16 and 3.13.18.
+# Exact package versions below are those printed by the notebooks.
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+lightgbm==4.6.0
+
+# Additional packages used by one or more notebooks.
+# Their exact versions were not consistently recorded; install in Google Colab
+# or resolve compatible versions for your local Python environment.
+opencv-python
+matplotlib
+scipy
+xgboost
+catboost
+tensorflow
