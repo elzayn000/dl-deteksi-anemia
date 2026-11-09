@@ -24,7 +24,7 @@ These table exports are direct transcriptions of the manuscript, not freshly rer
 
 The csv/ directory also contains detailed notebook outputs, including dataset audit, baseline metrics, pooling, protocol replication, ablation, fairness, robustness, CNN history, and feature-level outputs. See the notebook index for the source notebook of each output.
 
-The initial baseline CSV from Notebook 20 is preserved as baseline_palm_data_bersih_computational_run.csv. The manuscript-facing baseline_palm_data_bersih.csv and supplementary Table S1 use the Stacking accuracy/AUC values reported in the draft. As the draft does not report Stacking confusion counts and all derived metrics, those fields are intentionally blank. Do not infer them from the earlier saved run.
+The initial baseline CSV from Notebook 20 is preserved as baseline_palm_data_bersih_computational_run.csv. The manuscript-facing baseline_palm_data_bersih.csv reproduces the selected values shown in the draft's Table II. Supplementary Table S1 provides the full baseline detail using Appendix A1 of the final experiment report. Stacking accuracy, precision, sensitivity, specificity, F1, test AUC, and validation AUC are taken from that appendix; TP/TN/FP/FN are reconstructed from the class supports and rounded sensitivity/specificity. Validation accuracy remains blank because the appendix does not report it.
 
 ## Statistical corrections
 
