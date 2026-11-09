@@ -1,4 +1,4 @@
-site_id,perlakuan,metrik,selisih_vs_referensi,ci95_bawah,ci95_atas,p_terkoreksi,p_holm_11_kontras_auc
+site_id,perlakuan,metrik,selisih_vs_referensi,ci95_bawah,ci95_atas,p_nadeau_bengio,p_holm_11_kontras_auc
 dengan,"Tanpa segmentasi, tanpa filter",auc,-0.8594,-3.4852,1.7663,0.5058,1.0000
 dengan,"Tanpa segmentasi, tanpa filter",acc,-0.7732,-3.6455,2.0991,0.5836,
 dengan,Otsu,auc,3.5149,0.6402,6.3896,0.0187,0.0935
