@@ -1,0 +1,19 @@
+# Source datasets and private data
+Dataset_Multisite/
+data/raw/
+data/private/
+
+# Generated local outputs / model weights
+hasil_revisi/
+*.h5
+*.keras
+*.ckpt
+*.tflite
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
