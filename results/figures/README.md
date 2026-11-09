@@ -1,14 +1,16 @@
 # Figure inventory and manuscript mapping
 
-The repository contains saved notebook-generated plots, but not a verified final export for every figure in the manuscript.
+The six final JPEG figures supplied in `Figures_JET.zip` were visually checked against the captions in the 9 November 2026 manuscript draft. They are publication-ready source assets at 300 DPI. They have **not yet been committed to this repository**, so the paths below are the intended repository names rather than existing files.
 
-| Manuscript figure | Status in this repository |
-|---|---|
-| Figure 1 — overall experimental pipeline | No standalone final figure file currently included. |
-| Figure 2 — protocol replication accuracy | The underlying values are in [table_iii_protocol_replication.csv](../csv/table_iii_protocol_replication.csv); a final figure export is not currently included. |
-| Figure 3 — paired AUC differences in ablation | The underlying values are in [table_v_ablation_reported.csv](../csv/table_v_ablation_reported.csv); a final figure export is not currently included. |
-| Figure 4 — robustness AUC | The underlying values are in [table_viii_robustness_80_20.csv](../csv/table_viii_robustness_80_20.csv); a final figure export is not currently included. |
-| Figure 5 — selected confusion matrices | Several notebook-level confusion-matrix images are stored in confusion_matrix/. They are intermediate outputs; a final composite matching the manuscript has not been verified here. |
-| Figure 6 — CNN training histories | CNN history figures are stored in training-curves/. Confirm the selected figure against the final manuscript before citing it as the exact Figure 6. |
+| Manuscript figure | Caption / content | Intended repository path |
+|---|---|---|
+| Figure 1 | Overall experimental pipeline | `manuscript/figure_1.jpg` |
+| Figure 2 | Test accuracy of five algorithms under three protocols on clean Palm data | `manuscript/figure_2.jpg` |
+| Figure 3 | Paired AUC difference relative to Original for pooled LightGBM with site_id (repeated 5×5 CV) | `manuscript/figure_3.jpg` |
+| Figure 4 | AUC of pooled and Palm-only models under image degradations (80:20 split) | `manuscript/figure_4.jpg` |
+| Figure 5 | Confusion matrices of reference AlexNet, MobileNetV2 with early stopping, and pooled Otsu | `manuscript/figure_5.jpg` |
+| Figure 6 | Training histories under 70:10:20 for AlexNet-A, AlexNet-B, and MobileNetV2 with early stopping | `manuscript/figure_6.jpg` |
 
-Do not treat an intermediate notebook plot as the final manuscript figure unless its model configuration, split, and counts have been checked against the manuscript.
+The existing `confusion_matrix/` and `training-curves/` folders contain notebook-level outputs. They are retained as computational artifacts and are not substitutes for the six final manuscript figures listed above.
+
+When adding the final assets, preserve the original figure content and use the intended filenames. The image files should be committed without changing their plotted values or captions.
