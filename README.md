@@ -31,6 +31,13 @@ The experiments cover 14 algorithm families on clean Palm data (with two SVM con
 │   ├── csv/
 │   └── figures/
 │       ├── confusion_matrix/
+│       ├── manuscript/
+│       │   ├── Figure_1.jpg
+│       │   ├── Figure_2.jpg
+│       │   ├── Figure_3.jpg
+│       │   ├── Figure_4.jpg
+│       │   ├── Figure_5.jpg
+│       │   └── Figure_6.jpg
 │       └── training-curves/
 └── supplementary/
     ├── README.md
@@ -71,14 +78,16 @@ See [notebooks/README.md](notebooks/README.md) for the exact notebook-to-experim
 
 - [All committed CSV outputs](results/csv/)
 - [Manuscript-aligned CSV exports for Tables I–IX](results/README.md)
-- [Confusion matrices](results/figures/confusion_matrix/)
-- [CNN training curves](results/figures/training-curves/)
+- [Final manuscript figures — Figure 1–6](results/figures/manuscript/)
+- [Figure inventory, captions, and exact filenames](results/figures/README.md)
+- [Confusion matrices from notebook runs](results/figures/confusion_matrix/)
+- [CNN training curves from notebook runs](results/figures/training-curves/)
 - [Supplementary material index](supplementary/README.md)
 - [Supplementary Table S1 — full Palm baseline metrics](supplementary/Supplementary_Table_S1_Full_Baseline.csv)
 - [Supplementary Table S2 — CNN configurations and results](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
 - [Supplementary Table S3 — CNN epoch-wise training history](supplementary/Supplementary_Table_S3_CNN_Training_History.csv)
 
-Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The manuscript's Table II retains the selected-baseline accuracy and test AUC values. Supplementary Table S1 provides the full per-configuration baseline detail from Appendix A1 of the final experiment report; Stacking confusion counts are reconstructed from class supports and reported sensitivity/specificity, while validation accuracy remains blank because it is not reported. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
+Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The manuscript's Table II retains the selected-baseline accuracy and test AUC values for both split schemes. The full per-configuration classical baseline detail is provided in Supplementary Table S1 from Appendix A1 of the final experiment report; Stacking confusion counts are reconstructed from class supports and reported sensitivity/specificity, while validation accuracy remains blank because it is not reported. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
 
 ## Computational environment
 
@@ -99,6 +108,6 @@ The original code and documentation contributed by Daniel Halasson Hasibuan, Ind
 
 ## Manuscript-aligned result exports
 
-The manuscript Table I–IX CSV exports are indexed in [results/README.md](results/README.md). They transcribe the values in the 9 November 2026 draft. They are not a substitute for the source notebooks or a claim that all experiments were rerun from scratch.
+The manuscript Table I–IX CSV exports are indexed in [results/README.md](results/README.md). They transcribe the values in the 9 November 2026 draft and are not a substitute for the source notebooks or a claim that all experiments were rerun from scratch. The six final manuscript JPEGs (Figure_1.jpg–Figure_6.jpg) are committed under [results/figures/manuscript/](results/figures/manuscript/); their captions and exact case-sensitive paths are listed in [the figure inventory](results/figures/README.md).
 
 For the detailed baseline outputs, note that the Stacking Ensemble accuracy/AUC values in the draft differ from the earlier saved Notebook 20 result. The earlier output is preserved as a computational-run snapshot; the reader-facing baseline and Supplementary Table S1 reflect the manuscript. Unreported Stacking confusion counts and derived metrics are intentionally left blank.
