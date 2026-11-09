@@ -1,0 +1,6 @@
+condition,pooled_accuracy_auc_pct,palm_accuracy_auc_pct,nail_accuracy_auc_pct,conjunctiva_accuracy_auc_pct
+Original images,71.75/76.93,66.35/76.48,92.06/27.12,69.90/68.72
+Noise σ = 15,63.94/68.72,63.46/67.01,92.06/61.02,66.99/68.05
+Low Light 50%,65.06/63.32,42.31/38.14,93.65/41.95,54.37/45.67
+Blur 15×15,66.54/72.59,71.15/79.89,93.65/67.80,60.19/57.93
+Rotation 10°,70.63/74.77,72.12/77.92,92.06/46.19,65.05/63.41
