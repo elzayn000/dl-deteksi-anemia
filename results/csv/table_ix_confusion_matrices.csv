@@ -4,7 +4,7 @@ Pooled Original + site_id (LightGBM),80:20,144,49,43,33,81.4,53.3,71.8,65.8
 Pooled Otsu + site_id (LightGBM),80:20,153,60,32,24,86.4,65.2,79.2,65.8
 AlexNet (configuration of [12]),70:10:20,60,0,44,0,100.0,0.0,57.7,57.7
 AlexNet (configuration of [12]),80:10:10,30,0,22,0,100.0,0.0,57.7,57.7
-AlexNet-B (momentum, early stopping),70:10:20,60,0,44,0,100.0,0.0,57.7,57.7
+"AlexNet-B (momentum, early stopping)",70:10:20,60,0,44,0,100.0,0.0,57.7,57.7
 AlexNet-B (momentum, early stopping),80:10:10,30,0,22,0,100.0,0.0,57.7,57.7
 MobileNetV2 (early stopping),70:10:20,52,22,22,8,86.7,50.0,71.2,57.7
 MobileNetV2 (early stopping),80:10:10,25,12,10,5,83.3,54.5,71.2,57.7
