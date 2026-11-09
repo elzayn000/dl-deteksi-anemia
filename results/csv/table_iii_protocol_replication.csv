@@ -1,0 +1,6 @@
+algorithm,augment_then_split_A_pct,split_then_augment_B_pct,no_augmentation_C_pct,reported_result_in_reference_12_pct
+Naive Bayes,56.45,54.81,54.81,99.96
+k-NN (k = 100),64.16,58.65,62.50,99.92
+SVM (sigmoid),50.48,50.00,52.88,96.34
+Decision Tree,85.74,57.69,62.50,99.29
+LightGBM,100.00,69.23,67.31,
