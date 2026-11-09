@@ -1,6 +1,6 @@
 treatment,auc_mean_sd_pct,delta_auc_points,p_nadeau_bengio,p_holm_11_contrasts
 Original (reference),77.26 ± 2.01,,,
-No segmentation, no filter,76.40 ± 2.16,-0.86,0.506,1.000
+"No segmentation, no filter",76.40 ± 2.16,-0.86,0.506,1.000
 Otsu,80.78 ± 2.05,3.51,0.019,0.093
 Otsu + filter,76.90 ± 2.74,-0.36,0.777,1.000
 K-Means,81.03 ± 2.29,3.76,0.022,0.093
