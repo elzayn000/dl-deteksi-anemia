@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the research manuscript and this software record."
+title: "Code and supplementary materials for Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability"
+type: software
+authors:
+  - family-names: Hasibuan
+    given-names: Daniel Halasson
+  - family-names: Saputra
+    given-names: Indra
+  - family-names: Halim
+    given-names: Rasya
+  - family-names: Putra
+    given-names: Jordy Lasamana
+  - family-names: Fatiha
+    given-names: Zulfati Dinul
+  - family-names: Napiah
+    given-names: Musriatun
+version: 1.0.0
+date-released: 2026-11-09
+url: https://github.com/elzayn000/dl-deteksi-anemia
