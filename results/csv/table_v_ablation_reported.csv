@@ -1,13 +1,13 @@
-treatment,auc_mean_sd_pct,delta_auc_points,p_nadeau_bengio,p_holm_11_contrasts
-Original (reference),77.26 ± 2.01,,,
-"No segmentation, no filter",76.40 ± 2.16,-0.86,0.506,1.000
-Otsu,80.78 ± 2.05,3.51,0.019,0.093
-Otsu + filter,76.90 ± 2.74,-0.36,0.777,1.000
-K-Means,81.03 ± 2.29,3.76,0.022,0.093
-K-Means + filter,77.26 ± 2.83,-0.01,0.994,1.000
-White Balance (result mask),71.66 ± 2.56,-5.60,0.001,0.011
-CLAHE (result mask),73.70 ± 2.44,-3.56,0.012,0.075
-WB + CLAHE (result mask),67.89 ± 3.47,-9.38,<0.001,0.001
-White Balance (original-image mask),71.59 ± 2.76,-5.67,0.004,0.030
-CLAHE (original-image mask),74.42 ± 2.75,-2.85,0.011,0.075
-WB + CLAHE (original-image mask),70.70 ± 2.68,-6.57,<0.001,0.004
+section,treatment,auc_mean_sd_pct,delta_auc_points,p_nadeau_bengio,p_holm
+Reference,Original (reference),65.88 ± 2.25,0,–,–
+ROI segmentation,"No segmentation, no filter",64.44 ± 1.99,−1.44,0.407,1.000
+ROI segmentation,Otsu,70.01 ± 2.67,+4.13,0.009,0.0498
+ROI segmentation,Otsu + filter,65.81 ± 2.87,−0.07,0.951,1.000
+ROI segmentation,K-Means,70.85 ± 2.99,+4.97,0.004,0.031
+ROI segmentation,K-Means + filter,65.62 ± 2.95,−0.26,0.807,1.000
+Color normalization,White Balance (result),59.72 ± 3.12,−6.16,0.003,0.031
+Color normalization,CLAHE (result),63.47 ± 2.68,−2.41,0.130,0.519
+Color normalization,WB + CLAHE (result),55.53 ± 2.20,−10.35,<0.001,<0.001
+Color normalization,White Balance (original),59.75 ± 2.20,−6.13,0.001,0.011
+Color normalization,CLAHE (original),61.46 ± 1.95,−4.42,0.008,0.0498
+Color normalization,WB + CLAHE (original),60.03 ± 2.62,−5.85,0.006,0.044

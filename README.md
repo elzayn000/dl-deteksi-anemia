@@ -1,6 +1,6 @@
 # Robust Anemia Detection from Pallor Images
 
-Research code, experiment outputs, and supplementary tables for **Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability**.
+Research code, experiment outputs, figures, and supplementary material for **Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability**.
 
 ## Final experiment set
 
@@ -9,11 +9,12 @@ The final reported experiment set contains **1,563 images (901 anemic, 662 non-a
 ## Repository map
 
 - `dataset-info/DATASET_GUIDE.md`: source dataset records, local folder layout, and final sample counts.
-- `notebooks/`: experiment notebooks and run instructions.
+- `notebooks/`: notebook index and instructions. The latest notebook source files 16–25 are included in the downloadable archive.
 - `results/csv/`: source experiment CSVs and manuscript-aligned tables I–XI.
-- `results/releases/`: downloadable result-package archive.
-- `results/figures/`: manuscript and experiment figures.
-- `supplementary/`: standalone key supplementary CSVs and their descriptions.
+- `results/audit/`: dataset-cleaning audit JSON files.
+- `results/releases/`: dated result, figure, and notebook packages.
+- `results/figures/`: six manuscript JPEGs and figure inventory; refreshed supporting SVGs are available in the figures archive.
+- `supplementary/`: Supplementary Tables S1–S2 and descriptions.
 
 ## Dataset access
 
@@ -24,23 +25,26 @@ Source images are not redistributed in this repository. Obtain them from the ori
 
 Arrange images as described in [DATASET_GUIDE.md](dataset-info/DATASET_GUIDE.md). Do not commit raw pediatric images, subject identifiers, or restricted data.
 
-## Reproduction
+## Latest reproducibility packages
 
-The experiment notebooks are designed for Google Colab. Expected input path: `/content/drive/MyDrive/Dataset_Multisite`; output path: `/content/drive/MyDrive/hasil_revisi_v2`. Update notebook configuration cells if your Drive paths differ. See [notebooks/README.md](notebooks/README.md).
+- [Source CSVs, manuscript Tables I–XI, cleaning JSON, and Supplementary Tables S1–S3](results/releases/source_csv_tables_2026-11-14.zip)
+- [Seven confusion matrices and two CNN training curves (SVG)](results/releases/supporting_figures_svg_2026-11-14.zip). Extract inside `results/figures/`.
+- [Experiment notebooks 16–25 (TAR.XZ)](results/releases/notebooks_16_25_2026-11-14.tar.xz). Extract at the repository root.
 
-## Results and supplementary files
+The CSV archive includes source experiment outputs, manuscript-ready tables, and the current S1–S3 files. Four large internal artifacts (full typo audit, two detailed filename-rename lists, and feature-level ablation data) and raw pediatric images are excluded.
 
-- [Download the consolidated 14 November 2026 experiment-results ZIP](results/releases/experiment_results_2026-11-14.zip). It contains the current source CSV outputs, Tables I–XI, cleaning JSON summaries, and Supplementary Tables S1–S3.
-- [Supplementary Table S1 — full baseline metrics](supplementary/Supplementary_Table_S1_Full_Baseline.csv)
-- [Supplementary Table S2 — CNN experiments](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
-- [Results index](results/README.md)
+## Manuscript-aligned tables
 
-The consolidated ZIP contains the experiment CSVs and table exports. Four large internal CSV artifacts (the full filename audit/rename lists and feature-level ablation file) are not included in this compact release archive. The raw pediatric images are also excluded.
+The table exports are indexed in [results/README.md](results/README.md). Key supplementary files: [Table S1](supplementary/Supplementary_Table_S1_Full_Baseline.csv) and [Table S2](supplementary/Supplementary_Table_S2_CNN_Experiments.csv). The latest Table S3 is included in the source CSV archive.
 
 ## Interpretation and limitations
 
 Brightness groups are image-derived proxies, not validated or self-reported skin-tone measurements. Subject identifiers were unavailable, so subject-level separation could not be verified. Interpret the results with these limitations in mind.
 
-## Citation and license
+## Citation
 
-Cite the associated manuscript and this repository when using the code or supplementary tables. Third-party datasets and external material remain subject to their own licenses and terms.
+If you use the code or supplementary tables, cite the associated research manuscript and this repository. A machine-readable repository citation is provided in [CITATION.cff](CITATION.cff). The manuscript DOI is not recorded in this repository.
+
+## Software license
+
+The original code and documentation contributed by Daniel Halasson Hasibuan, Indra Saputra, and Rasya Halim are released under the [MIT License](LICENSE). The MIT License applies only to the original materials owned by these contributors. Third-party datasets and externally sourced materials remain subject to their respective licenses and terms of use.

@@ -1,7 +1,5 @@
 fitur,pengelompokan,kelompok_gelap,kelompok_terang,selisih_sens,ci_bawah_sens,ci_atas_sens,selisih_spes,ci_bawah_spes,ci_atas_spes,selisih_auc,ci_bawah_auc,ci_atas_auc
-Original,L 8-bit (ambang kode lama),Gelap (L<100),Terang (L>=150),-3.62,-16.79,5.63,5.55,-11.46,22.24,0.35,-10.5,9.92
-Original,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),-4.1,-10.35,1.64,16.38,5.08,27.08,2.67,-3.08,8.4
-Original,Tertil L* dalam situs,T1 gelap,T3 terang,4.51,-1.45,10.52,7.52,-3.53,18.29,7.82,2.21,13.88
-Otsu,L 8-bit (ambang kode lama),Gelap (L<100),Terang (L>=150),-6.51,-19.62,2.66,9.47,-7.99,23.15,-3.75,-13.91,6.0
-Otsu,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),-6.33,-12.26,-0.96,8.8,-2.35,19.6,-2.0,-8.14,3.57
-Otsu,Tertil L* dalam situs,T1 gelap,T3 terang,5.03,-0.55,10.69,-2.1,-12.88,8.69,3.18,-2.32,8.75
+Original,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),5.28,-2.05,12.17,18.54,9.06,27.5,14.98,8.81,21.26
+Original,Tertil L* dalam situs,T1 gelap,T3 terang,7.47,0.41,14.47,7.69,-1.68,16.87,13.21,6.75,19.27
+Otsu,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),7.83,0.95,14.19,5.53,-3.91,14.68,6.43,0.01,12.91
+Otsu,Tertil L* dalam situs,T1 gelap,T3 terang,12.7,6.17,19.17,-5.98,-15.13,3.29,3.08,-2.83,9.8
