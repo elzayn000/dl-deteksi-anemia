@@ -26,7 +26,7 @@ Arrange images as described in [DATASET_GUIDE.md](dataset-info/DATASET_GUIDE.md)
 
 ## Reproduction
 
-The experiment notebooks are intended for Google Colab. Expected input path: `/content/drive/MyDrive/Dataset_Multisite`; many outputs use `/content/drive/MyDrive/hasil_revisi_v2`. Update path settings if needed. See [notebooks/README.md](notebooks/README.md).
+The experiment notebooks are intended for Google Colab. Expected input path: `/content/drive/MyDrive/Dataset_Multisite`; many outputs use `/content/drive/MyDrive/hasil_revisi_v2`. Update path settings if needed. See [notebooks/README.md](notebooks/README.md) for the experiment-to-output map.
 
 ## Results and supplementary files
 
@@ -36,7 +36,7 @@ The manuscript-facing CSV exports for Tables I–XI are available individually i
 - [Supplementary Table S2 — CNN experiments](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
 - [Supplementary Table S3 — CNN epoch history (CSV.GZ)](supplementary/Supplementary_Table_S3_CNN_Training_History.csv.gz)
 
-The current PR does not add the notebook source files 16–25 themselves; `notebooks/README.md` describes their functions and required outputs. The separately prepared notebook archive is available in the conversation attachment.
+The notebook source files 16–25 are not included in this repository revision; their roles and expected outputs are documented in [notebooks/README.md](notebooks/README.md).
 
 ## Interpretation and limitations
 
