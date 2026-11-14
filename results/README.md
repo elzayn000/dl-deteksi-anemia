@@ -2,14 +2,6 @@
 
 This folder contains experiment outputs and manuscript-aligned table exports for the 14 November 2026 research revision.
 
-## Download packages
-
-- [Source experiment CSVs, Tables I–XI, cleaning JSON, and Supplementary S1–S3](releases/source_csv_tables_2026-11-14.zip)
-- [Seven SVG confusion matrices and two SVG CNN curves](releases/supporting_figures_svg_2026-11-14.zip). Extract this archive inside `results/figures/`.
-- [Experiment notebooks 16–25](releases/notebooks_16_25_2026-11-14.tar.xz). Extract at the repository root.
-
-The compact CSV package excludes four large internal artifacts: the full filename typo audit, two detailed filename-rename lists, and the feature-level ablation CSV. Raw pediatric images are not included.
-
 ## Manuscript-aligned tables
 
 | Manuscript table | CSV export |
@@ -26,7 +18,11 @@ The compact CSV package excludes four large internal artifacts: the full filenam
 | Table X — empty-mask counts | [table_x_empty_mask_counts.csv](csv/table_x_empty_mask_counts.csv) |
 | Table XI — sensitivity analysis | [table_xi_sensitivity_analysis.csv](csv/table_xi_sensitivity_analysis.csv) |
 
-The table CSVs are reader-facing summaries. Detailed experiment-level source CSVs are included in the source data archive.
+These table CSVs are reader-facing summaries. Detailed current experiment outputs are also available in `csv/`, including Palm/CNN baselines, ablation summaries and contrasts, and fairness subgroup data.
+
+## Supporting figures
+
+The latest seven confusion matrices and two CNN training curves are stored in [supporting_figures_svg_2026-11-14.tar.xz](releases/supporting_figures_svg_2026-11-14.tar.xz). Extract the archive inside `results/figures/` to restore their folders.
 
 ## Final data and interpretation
 

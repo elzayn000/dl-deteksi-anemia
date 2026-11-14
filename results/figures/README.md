@@ -1,8 +1,6 @@
 # Figure inventory
 
-The six final manuscript JPEG figures remain under `manuscript/`. The refreshed experiment-level figures from the latest package are included in [supporting_figures_svg_2026-11-14.zip](../../results/releases/supporting_figures_svg_2026-11-14.zip).
-
-## Supporting experiment figures
+The six final manuscript JPEG figures remain under `manuscript/`. The refreshed supporting experiment figures are packaged in [supporting_figures_svg_2026-11-14.tar.xz](../releases/supporting_figures_svg_2026-11-14.tar.xz).
 
 The SVG archive contains seven confusion matrices:
 - `cm_nb17_80_20.svg`

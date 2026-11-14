@@ -1,6 +1,6 @@
 # Experiment notebooks
 
-The latest notebook source files (16–25) are provided in [notebooks_16_25_2026-11-14.tar.xz](../results/releases/notebooks_16_25_2026-11-14.tar.xz). Extract the TAR.XZ archive at the repository root to restore the `notebooks/` directory.
+This directory contains the notebook index and execution guide. The source notebook files 16–25 were provided in the latest research upload but are not committed as individual files in this PR. The separately prepared archive `notebooks_16_25_source_only_2026-11-14.zip` is available as a conversation attachment.
 
 | Notebook | Purpose | Main output |
 |---|---|---|
@@ -21,3 +21,5 @@ The latest notebook source files (16–25) are provided in [notebooks_16_25_2026
 - Output path used by many notebook cells: `/content/drive/MyDrive/hasil_revisi_v2`. Update paths if needed.
 - Notebook 21 and 22 use TensorFlow/Keras; a Colab GPU is recommended.
 - Notebook 25 depends on feature-level output from Notebook 23.
+
+The current CSV outputs and manuscript Tables I–XI are committed under [../results/csv/](../results/csv/).
