@@ -1,10 +1,7 @@
 pengelompokan,kelompok,n,anemic,prevalensi_anemic,n_Palm,n_Nail,n_Conjunctiva
-L 8-bit (ambang kode lama),Gelap (L<100),86,51,59.3,21,6,59
-L 8-bit (ambang kode lama),Sedang (100<=L<150),485,315,64.9,216,73,196
-L 8-bit (ambang kode lama),Terang (L>=150),774,519,67.1,282,233,259
-"ITA (Chardon, digabung)",Gelap (ITA<10),368,225,61.1,157,36,175
-"ITA (Chardon, digabung)",Menengah (10<=ITA<41),427,267,62.5,184,60,183
-"ITA (Chardon, digabung)",Terang (ITA>=41),550,393,71.5,178,216,156
-Tertil L* dalam situs,T1 gelap,450,303,67.3,174,104,172
-Tertil L* dalam situs,T2 tengah,447,299,66.9,172,104,171
-Tertil L* dalam situs,T3 terang,448,283,63.2,173,104,171
+"ITA (Chardon, digabung)",Gelap (ITA<10),389,225,57.8,157,57,175
+"ITA (Chardon, digabung)",Menengah (10<=ITA<41),467,273,58.5,185,98,184
+"ITA (Chardon, digabung)",Terang (ITA>=41),707,403,57.0,178,373,156
+Tertil L* dalam situs,T1 gelap,522,314,60.2,174,176,172
+Tertil L* dalam situs,T2 tengah,519,294,56.6,172,176,171
+Tertil L* dalam situs,T3 terang,522,293,56.1,174,176,172
