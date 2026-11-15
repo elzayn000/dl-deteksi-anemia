@@ -1,6 +1,6 @@
 # Result figures
 
-This directory contains individual vector figures exported from the experiment notebooks. SVG is used so plots remain sharp when zoomed or placed in a manuscript.
+This directory contains experiment diagnostic plots and the manuscript figures for the latest paper draft.
 
 ## Confusion matrices
 
@@ -25,8 +25,8 @@ Location: `training-curves/`
 | `kurva_pelatihan_cnn.svg` | Training history for the reference CNN experiments |
 | `kurva_varian_cnn.svg` | Training history for the author-modified CNN variants |
 
-## Manuscript figures
+## Latest manuscript figures
 
 Location: `manuscript/`
 
-The six JPEG files `Figure_1.jpg` through `Figure_6.jpg` are legacy assets retained from the previous repository version. They are **not** the nine figure images embedded in the latest `Draft_v2_0_21_Fig1_Demo` manuscript. The SVG files above are experiment diagnostic outputs (confusion matrices and CNN training curves); the latest paper's composite Figures 1–9 remain embedded in the manuscript document rather than exported individually in this directory. Do not treat the six legacy JPEGs as the current paper's figure set.
+The nine PNG files `Figure_1.png` through `Figure_9.png` are the current manuscript figure set and replace the six legacy JPEG files from the previous paper draft. Their filenames follow the figure numbering used in the latest manuscript draft. Use these PNG files for manuscript preparation; the SVGs above are separate diagnostic outputs generated from the experiment notebooks.
