@@ -26,6 +26,7 @@ The dataset-cleaning audit also records an intermediate set of 1,567 images (904
 | `results/csv/large/` | Compressed, detailed CSV artifacts that are larger or mainly used for audit/reanalysis |
 | `results/figures/confusion_matrix/` | Seven confusion-matrix figures in SVG format |
 | `results/figures/training-curves/` | Two CNN training-history figures in SVG format |
+| `results/figures/manuscript/` | Six manuscript figure images retained from the previous repository version |
 | `supplementary/` | Supplementary Tables S1–S3 in CSV format |
 
 Each data folder contains a README describing its files. Start with [`notebooks/README.md`](notebooks/README.md) for the experiment sequence, [`results/README.md`](results/README.md) for the output map, and [`supplementary/README.md`](supplementary/README.md) for the supplementary tables.
@@ -50,13 +51,14 @@ Recommended order:
 2. Run the experiment notebooks 17–24 as needed for the corresponding analysis.
 3. Run Notebook 25 after Notebook 23 if the feature-level ablation output is not already available. The repository stores that intermediate artifact as `results/csv/large/fitur_ablasi.csv.gz`; decompress it to the filename expected by Notebook 25 or regenerate it by running Notebook 23.
 
-Notebook 21 is a CNN training workflow and recommends a Colab GPU runtime. Other notebooks may run on CPU, as noted in their own instructions. See [`notebooks/README.md`](notebooks/README.md) for the purpose, dependencies, and outputs of each notebook.
+Notebook 21 is a CNN training workflow. A Colab GPU runtime is recommended to accelerate training, although CPU execution is possible and may take longer. Other notebooks may run on CPU, as noted in their own instructions. See [`notebooks/README.md`](notebooks/README.md) for the purpose, dependencies, and outputs of each notebook.
 
 ## Results and supplementary material
 
 - **Manuscript-aligned tables:** Tables I–XI are exported as individual CSV files in [`results/csv/`](results/csv/README.md).
 - **Detailed experiment outputs:** Baseline, pooling, robustness, ablation, fairness, and CNN history files are also available in `results/csv/`.
-- **Figures:** Seven confusion matrices and two CNN training curves are supplied as individual SVG files in [`results/figures/`](results/figures/README.md).
+- **Experiment figures:** Seven confusion matrices and two CNN training curves are supplied as individual SVG files. See [`results/figures/README.md`](results/figures/README.md).
+- **Manuscript figures:** Six JPEG files are retained separately in `results/figures/manuscript/`.
 - **Supplementary tables:** S1 contains the expanded baseline metrics, S2 the CNN experiment results, and S3 the CNN epoch-level training history. See [`supplementary/README.md`](supplementary/README.md).
 
 ## Interpretation and limitations
