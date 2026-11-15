@@ -1,6 +1,6 @@
-# Robust Anemia Detection from Pallor Images
+# Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images
 
-Research code, experiment outputs, figures, and supplementary tables for the study **Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability**.
+Research code, experiment outputs, figures, and supplementary tables for **Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images**.
 
 ## Final experiment set
 

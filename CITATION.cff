@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the research manuscript and this software record."
-title: "dl-deteksi-anemia: Code and supplementary materials for robust anemia detection from pallor images"
+title: "dl-deteksi-anemia: Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images"
 type: software
 authors:
   - family-names: Hasibuan

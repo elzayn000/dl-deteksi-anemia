@@ -29,4 +29,4 @@ Location: `training-curves/`
 
 Location: `manuscript/`
 
-The six JPEG files `Figure_1.jpg` through `Figure_6.jpg` are retained from the previous repository version. They are kept separate from the SVG diagnostic figures above; their final numbering, captions, and placement should follow the manuscript version being submitted.
+The six JPEG files `Figure_1.jpg` through `Figure_6.jpg` are legacy assets retained from the previous repository version. They are **not** the nine figure images embedded in the latest `Draft_v2_0_21_Fig1_Demo` manuscript. The SVG files above are experiment diagnostic outputs (confusion matrices and CNN training curves); the latest paper's composite Figures 1–9 remain embedded in the manuscript document rather than exported individually in this directory. Do not treat the six legacy JPEGs as the current paper's figure set.

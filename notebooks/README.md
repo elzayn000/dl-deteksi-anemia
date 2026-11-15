@@ -20,7 +20,7 @@ This directory contains the saved Jupyter notebooks used to audit the dataset an
 ## Recommended execution order
 
 1. **Prepare the dataset.** Download the source records listed in `../dataset-info/DATASET_GUIDE.md` and arrange them as `Dataset_Multisite/Palm/`, `Dataset_Multisite/Nail/`, and `Dataset_Multisite/Conjunctiva/`.
-2. **Review Notebook 16 before running it.** Its first step creates a timestamped backup in Google Drive. The notebook then performs file-audit and cleaning operations; it is not a read-only notebook. Check the backup and the cleaned dataset before running later experiments.
+2. **Run Notebook 16 as a sequential workflow, not as a read-only audit.** It creates a timestamped backup, audits the typo list, runs an initial cleaning attempt, restores the backup, then runs the corrected `FIXED v2` cleaning step and final verification. Keep the cells in order: do not stop after the first cleaning attempt or skip the restore step. Check that the backup contains Palm, Nail, and Conjunctiva before allowing the final cleaning step to modify the Drive dataset. The final authoritative cleaning summary is `results/audit/laporan_pembersihan_drive.json`.
 3. **Run the analysis notebooks.** Notebooks 17–24 cover pooling, robustness, protocol replication, baselines, CNNs, ablation, and brightness-group fairness.
 4. **Run Notebook 25 after Notebook 23.** Notebook 25 reads the feature-level ablation data produced by Notebook 23; it does not reconstruct those features from the images.
 
