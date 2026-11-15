@@ -1,5 +1,0 @@
-features,grouping,delta_sensitivity_95CI,delta_specificity_95CI,delta_auc_95CI,permutation_p_sensitivity_spec
-Original,ITA (merged),+5.28 [−2.05; +12.17],+18.54 [+9.06; +27.50],+14.98 [+8.81; +21.26],0.332 / 0.007
-Original,L* tercile within site,+7.47 [+0.41; +14.47],+7.69 [−1.68; +16.87],+13.21 [+6.75; +19.27],0.095 / 0.150
-Otsu,ITA (merged),+7.83 [+0.95; +14.19],+5.53 [−3.91; +14.68],+6.43 [+0.01; +12.91],0.056 / 0.216
-Otsu,L* tercile within site,+12.70 [+6.17; +19.17],−5.98 [−15.13; +3.29],+3.08 [−2.83; +9.80],0.001 / 0.292
