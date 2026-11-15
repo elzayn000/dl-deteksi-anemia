@@ -30,10 +30,12 @@ This directory contains experiment-level CSV outputs and the compact CSV exports
 | `replikasi_protokol_paper.csv` | Protocol-replication results |
 | `riwayat_pelatihan_cnn.csv`, `riwayat_varian_cnn.csv` | Epoch-level CNN training histories |
 | `ablasi_*.csv` | Split-level, cross-validation, additional contrast, and empty-mask ablation outputs |
-| `fairness_*.csv` | Brightness-group composition, out-of-fold metrics, and paired fairness contrasts |
+| `fairness_*.csv` | Brightness-group composition, out-of-fold metrics, and paired fairness contrasts for the two manuscript-reported groupings (merged ITA and within-site L* tertiles) |
 
 ## Reading the files
 
 CSV files use header rows. Most metric columns encode percentages in their names (for example, `_pct`). Some compact manuscript exports combine multiple metrics in one cell, as indicated by the column name. Preserve the original values and missing-value markers when importing the files.
+
+The detailed fairness outputs in the original `hasil_revisi_v2` experiment package also contain an exploratory 8-bit brightness grouping (`L < 100`, `100 ≤ L < 150`, and `L ≥ 150`). The branch-level `fairness_*.csv` files intentionally retain only the two groupings reported in the latest manuscript: merged ITA categories and within-site L* tertiles. The omitted 8-bit grouping is exploratory and is not included in manuscript Tables VI–VII.
 
 Files in this directory are research outputs, not raw image datasets. For the complete record of the cleaning process, use `../audit/`; for the detailed compressed typo and feature-level artifacts, use `large/`.
