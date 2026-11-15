@@ -29,7 +29,7 @@ The dataset-cleaning audit also records an intermediate set of 1,567 images (904
 | `results/figures/manuscript/` | Six manuscript figure images retained from the previous repository version |
 | `supplementary/` | Supplementary Tables S1–S3 in CSV format |
 
-Each data folder contains a README describing its files. Start with [`notebooks/README.md`](notebooks/README.md) for the experiment sequence, [`results/README.md`](results/README.md) for the output map, and [`supplementary/README.md`](supplementary/README.md) for the supplementary tables.
+Folder-level guides are provided throughout the repository. Start with [`notebooks/README.md`](notebooks/README.md) for the experiment sequence, [`results/README.md`](results/README.md) for the output map, and [`supplementary/README.md`](supplementary/README.md) for the supplementary tables.
 
 ## Dataset access
 

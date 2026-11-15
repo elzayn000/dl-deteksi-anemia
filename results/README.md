@@ -11,6 +11,7 @@ This directory contains the exported experiment outputs used to inspect and supp
 | `audit/` | JSON summaries from dataset cleaning and file-audit steps |
 | `figures/confusion_matrix/` | Seven confusion-matrix figures in SVG |
 | `figures/training-curves/` | Two CNN training curves in SVG |
+| `figures/manuscript/` | Six manuscript JPEG figure files retained from the previous repository version |
 
 ## Where to start
 
