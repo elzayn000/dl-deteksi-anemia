@@ -1,22 +1,21 @@
-# Supplementary material
+# Supplementary tables
 
-This folder contains the reader-facing supplementary tables associated with the manuscript **“Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability.”**
+This directory contains three CSV exports intended to accompany the manuscript. S1 and S2 contain model-level evaluation details; S3 preserves epoch-by-epoch CNN training history.
 
-## Files
+| File | Contents | Main fields |
+|---|---|---|
+| `Supplementary_Table_S1_Full_Baseline.csv` | Expanded baseline metrics for the Palm experiments across the 70:10:20 and 80:10:10 split schemes | Algorithm/configuration, split sizes, TP/TN/FP/FN, accuracy, precision, sensitivity, specificity, F1, test/validation AUC, and majority-class baseline |
+| `Supplementary_Table_S2_CNN_Experiments.csv` | Reference CNN baselines and author-modified CNN experiments | Model/run type, configuration, split sizes, confusion counts, performance metrics, predicted-anemic percentage, and stopping/best epoch when available |
+| `Supplementary_Table_S3_CNN_Training_History.csv` | Epoch-level training and validation history for CNN runs | Split scheme, algorithm, epoch, accuracy/loss, validation accuracy/loss, run series, and source CSV |
 
-| File | Contents |
-|---|---|
-| [Supplementary Table S1](Supplementary_Table_S1_Full_Baseline.csv) | Full Palm baseline metrics for 14 algorithm families, with the two SVM configurations shown separately, under 70:10:20 and 80:10:10 splits. |
-| [Supplementary Table S2](Supplementary_Table_S2_CNN_Experiments.csv) | Full CNN baseline and author-modified variant metrics, including the 10-epoch MobileNetV2 result and early-stopping results. |
-| [Supplementary Table S3](Supplementary_Table_S3_CNN_Training_History.csv) | Epoch-wise training and validation accuracy/loss for the CNN runs. |
-| [Supplementary description](Supplementary_Description.md) | Definitions, source-file mapping, and notes for interpreting the tables. |
+## Relationship to the main results
 
-## Use in the manuscript
+- S1 expands the baseline results summarized in `../results/csv/table_ii_selected_baselines.csv` and the corresponding baseline CSV exports.
+- S2 provides additional detail for the CNN rows and configurations reported in the baseline/variant outputs.
+- S3 contains the per-epoch histories associated with `riwayat_pelatihan_cnn.csv` and the variant training history.
 
-Supplementary Table S1 provides expanded per-configuration baseline results (including precision, sensitivity, specificity, F1-score, and validation AUC where those values are available from the saved runs or manuscript). The Stacking Ensemble metrics are synchronized to Appendix A1 of the final experiment report; confusion counts are reconstructed from the reported class supports and rounded sensitivity/specificity. Validation accuracy is not reported and remains blank. Tables S2 and S3 provide the additional CNN configuration and training-history detail discussed alongside the CNN results.
+## Data format
 
-The tables are CSV files to keep them easy to inspect, version, and reuse. They can be opened in Excel or imported into spreadsheet software. The committed source CSVs remain available under `../results/csv/`.
+All three files are UTF-8 CSV files with a header row. S3 is stored as an ordinary `.csv` file in this branch (not `.csv.gz`). Use a CSV-aware reader and preserve decimal values, percentage units, and empty fields as recorded.
 
-## Important counting note
-
-The manuscript describes 14 algorithm families. SVM has two reported parameter configurations, so Table S1 has 15 configuration rows per split (30 result rows across the two splits). The two SVM settings must not be collapsed into one metric row.
+These files contain exported research results, not source pediatric images. For dataset origins, local folder layout, and sample counts, see `../dataset-info/DATASET_GUIDE.md` from the repository root.

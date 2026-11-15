@@ -1,41 +1,41 @@
 site_id,kontras,metrik,selisih,ci_bawah,ci_atas,p_terkoreksi
-dengan,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),auc,4.3744,1.3549,7.3938,0.0064
-dengan,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),acc,4.3271,0.8623,7.792,0.0165
-dengan,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),auc,4.6219,1.5892,7.6545,0.0044
-dengan,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),acc,4.2974,0.6482,7.9466,0.0229
-dengan,Efek filter pada Otsu: Otsu+filter - Otsu,auc,-3.8788,-6.148,-1.6097,0.0017
-dengan,Efek filter pada Otsu: Otsu+filter - Otsu,acc,-4.6989,-6.7883,-2.6095,0.0001
-dengan,Efek filter pada K-Means: K-Means+filter - K-Means,auc,-3.7711,-6.4021,-1.1401,0.0069
-dengan,Efek filter pada K-Means: K-Means+filter - K-Means,acc,-3.6431,-6.1817,-1.1045,0.0068
-dengan,Efek filter tanpa segmentasi: filter - tanpa filter,auc,0.8594,-1.7663,3.4852,0.5058
-dengan,Efek filter tanpa segmentasi: filter - tanpa filter,acc,0.7732,-2.0991,3.6455,0.5836
-dengan,Otsu - K-Means (tanpa filter),auc,-0.2475,-1.2819,0.7869,0.6259
-dengan,Otsu - K-Means (tanpa filter),acc,0.0297,-2.0081,2.0676,0.9762
-dengan,Kepekaan: Original (kosong diganti) - Original (kosong nol),auc,-0.4366,-1.4549,0.5818,0.385
-dengan,Kepekaan: Original (kosong diganti) - Original (kosong nol),acc,-0.4758,-1.7852,0.8336,0.4605
-dengan,Kepekaan: Otsu - Original (kosong diganti),auc,3.9515,1.0121,6.8909,0.0105
-dengan,Kepekaan: Otsu - Original (kosong diganti),acc,4.0297,0.3425,7.717,0.0335
-dengan,Kepekaan: K-Means - Original (kosong diganti),auc,4.199,0.9936,7.4044,0.0124
-dengan,Kepekaan: K-Means - Original (kosong diganti),acc,4.0,0.1199,7.8801,0.0438
-dengan,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),auc,1.362,-0.3337,3.0576,0.1104
-dengan,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),acc,1.9182,-0.3407,4.1771,0.0924
-tanpa,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),auc,0.9305,-2.6835,4.5444,0.6
-tanpa,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),acc,2.2602,-1.5396,6.06,0.2315
-tanpa,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),auc,1.5386,-2.1347,5.2119,0.3959
-tanpa,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),acc,3.0781,-0.9376,7.0937,0.1267
-tanpa,Efek filter pada Otsu: Otsu+filter - Otsu,auc,-3.7549,-7.3059,-0.2039,0.0391
-tanpa,Efek filter pada Otsu: Otsu+filter - Otsu,acc,-3.7323,-6.8483,-0.6164,0.0209
-tanpa,Efek filter pada K-Means: K-Means+filter - K-Means,auc,-4.7715,-8.68,-0.863,0.0188
-tanpa,Efek filter pada K-Means: K-Means+filter - K-Means,acc,-4.3717,-7.9763,-0.7672,0.0195
-tanpa,Efek filter tanpa segmentasi: filter - tanpa filter,auc,-2.3291,-5.7136,1.0554,0.1684
-tanpa,Efek filter tanpa segmentasi: filter - tanpa filter,acc,-1.145,-4.7131,2.4231,0.5141
-tanpa,Otsu - K-Means (tanpa filter),auc,-0.6081,-1.7658,0.5495,0.2891
-tanpa,Otsu - K-Means (tanpa filter),acc,-0.8178,-2.8525,1.2168,0.4149
-tanpa,Kepekaan: Original (kosong diganti) - Original (kosong nol),auc,-0.3295,-1.7901,1.1312,0.6458
-tanpa,Kepekaan: Original (kosong diganti) - Original (kosong nol),acc,-0.0892,-1.9572,1.7788,0.9223
-tanpa,Kepekaan: Otsu - Original (kosong diganti),auc,3.589,0.0515,7.1265,0.047
-tanpa,Kepekaan: Otsu - Original (kosong diganti),acc,3.4944,0.6393,6.3495,0.0185
-tanpa,Kepekaan: K-Means - Original (kosong diganti),auc,4.1971,0.1947,8.1996,0.0406
-tanpa,Kepekaan: K-Means - Original (kosong diganti),acc,4.3123,0.5179,8.1066,0.0276
-tanpa,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),auc,1.6713,-0.3238,3.6664,0.0967
-tanpa,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),acc,1.7249,-0.2598,3.7096,0.0855
+dengan,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),auc,5.5699,2.5766,8.5633,0.0008
+dengan,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),acc,4.9894,1.7243,8.2544,0.0043
+dengan,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),auc,6.4104,2.9877,9.8331,0.0007
+dengan,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),acc,5.4122,1.5867,9.2377,0.0075
+dengan,Efek filter pada Otsu: Otsu+filter - Otsu,auc,-4.1988,-7.4817,-0.9158,0.0144
+dengan,Efek filter pada Otsu: Otsu+filter - Otsu,acc,-4.2741,-7.6097,-0.9384,0.0142
+dengan,Efek filter pada K-Means: K-Means+filter - K-Means,auc,-5.2381,-8.7097,-1.7666,0.0047
+dengan,Efek filter pada K-Means: K-Means+filter - K-Means,acc,-4.4027,-7.5077,-1.2977,0.0074
+dengan,Efek filter tanpa segmentasi: filter - tanpa filter,auc,1.4417,-2.0822,4.9655,0.4068
+dengan,Efek filter tanpa segmentasi: filter - tanpa filter,acc,0.4969,-3.4124,4.4062,0.7953
+dengan,Otsu - K-Means (tanpa filter),auc,-0.8404,-2.1568,0.4759,0.2
+dengan,Otsu - K-Means (tanpa filter),acc,-0.4228,-2.4377,1.592,0.6688
+dengan,Kepekaan: Original (kosong diganti) - Original (kosong nol),auc,-0.5148,-1.9222,0.8926,0.4576
+dengan,Kepekaan: Original (kosong diganti) - Original (kosong nol),acc,-0.3068,-2.8616,2.2479,0.8063
+dengan,Kepekaan: Otsu - Original (kosong diganti),auc,4.6431,1.9288,7.3574,0.0017
+dengan,Kepekaan: Otsu - Original (kosong diganti),acc,4.7993,1.9367,7.6619,0.002
+dengan,Kepekaan: K-Means - Original (kosong diganti),auc,5.4835,2.6125,8.3545,0.0006
+dengan,Kepekaan: K-Means - Original (kosong diganti),acc,5.2221,2.0733,8.3709,0.0022
+dengan,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),auc,1.2737,-0.6701,3.2174,0.1889
+dengan,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),acc,1.4839,-0.846,3.8139,0.2011
+tanpa,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),auc,3.6207,0.5382,6.7031,0.0232
+tanpa,Segmentasi tanpa filter: Otsu - tanpa segmentasi (tanpa filter),acc,2.9421,0.3575,5.5267,0.0274
+tanpa,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),auc,3.9753,0.6755,7.2752,0.0203
+tanpa,Segmentasi tanpa filter: K-Means - tanpa segmentasi (tanpa filter),acc,3.1477,-0.3124,6.6079,0.0726
+tanpa,Efek filter pada Otsu: Otsu+filter - Otsu,auc,-3.5368,-6.9365,-0.1372,0.0421
+tanpa,Efek filter pada Otsu: Otsu+filter - Otsu,acc,-2.8022,-5.7355,0.1311,0.0603
+tanpa,Efek filter pada K-Means: K-Means+filter - K-Means,auc,-3.9167,-7.1951,-0.6384,0.0212
+tanpa,Efek filter pada K-Means: K-Means+filter - K-Means,acc,-3.1617,-6.2991,-0.0243,0.0484
+tanpa,Efek filter tanpa segmentasi: filter - tanpa filter,auc,-0.1415,-3.4373,3.1543,0.9301
+tanpa,Efek filter tanpa segmentasi: filter - tanpa filter,acc,-0.4247,-3.6567,2.8074,0.7886
+tanpa,Otsu - K-Means (tanpa filter),auc,-0.3547,-1.9535,1.2442,0.6512
+tanpa,Otsu - K-Means (tanpa filter),acc,-0.2056,-2.2879,1.8767,0.8402
+tanpa,Kepekaan: Original (kosong diganti) - Original (kosong nol),auc,-0.7757,-2.2737,0.7223,0.2958
+tanpa,Kepekaan: Original (kosong diganti) - Original (kosong nol),acc,-0.6511,-2.978,1.6758,0.5689
+tanpa,Kepekaan: Otsu - Original (kosong diganti),auc,4.5378,1.4594,7.6163,0.0056
+tanpa,Kepekaan: Otsu - Original (kosong diganti),acc,4.0179,1.5381,6.4978,0.0027
+tanpa,Kepekaan: K-Means - Original (kosong diganti),auc,4.8925,1.4108,8.3743,0.0079
+tanpa,Kepekaan: K-Means - Original (kosong diganti),acc,4.2236,0.9211,7.5261,0.0144
+tanpa,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),auc,1.0723,-0.6076,2.7521,0.2002
+tanpa,Kepekaan: Otsu+filter (kosong diganti) - Otsu+filter (kosong nol),acc,0.2682,-1.544,2.0805,0.7626

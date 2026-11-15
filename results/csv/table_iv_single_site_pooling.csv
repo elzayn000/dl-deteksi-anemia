@@ -1,8 +1,7 @@
-experiment,accuracy_auc_80_20,accuracy_auc_80_10_10,accuracy_auc_70_10_20,majority_baseline_pct
-Palm (Original),66.35/76.48,71.15/77.58,67.31/71.33,57.69
-Nail (Original),92.06/27.12,93.75/46.67,90.48/37.29,93.65
-Conjunctiva (Original),69.90/68.72,67.31/65.22,64.08/63.20,56.31
-Pooled Original + site_id,71.75/76.93,73.33/76.82,73.23/76.83,65.80
-"Pooled Original, no site_id",70.26/71.44,73.33/75.06,71.38/72.44,65.80
-Pooled Otsu + site_id,79.18/82.51,80.00/81.83,77.32/80.33,65.80
-"Pooled Otsu, no site_id",75.46/77.90,76.30/80.39,73.23/74.77,65.80
+experiment,metrics_80_20_accuracy_auc_pct,metrics_80_10_10_accuracy_auc_pct,metrics_70_10_20_accuracy_auc_pct,majority_baseline_pct
+Palm (Original),68.27/76.10,71.15/77.88,71.15/79.77,57.69
+Nail (Original),66.98/66.28,69.81/70.38,71.70/72.73,58.49
+Conjunctiva (Original),66.02/69.41,59.62/71.06,63.11/62.97,56.31
+Pooled Original + site_id,57.83/60.19,59.87/60.56,57.19/58.25,57.51
+Pooled Otsu + site_id,67.09/69.77,64.97/68.74,63.58/66.94,57.51
+"Pooled Otsu, no site_id",64.22/67.08,60.51/64.78,66.13/66.02,57.51

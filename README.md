@@ -1,113 +1,76 @@
-# Robust Anemia Detection from Pallor Images
+# Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images
 
-Research code and experimental results for the manuscript:
+**Repository version:** `1.1.0` (see [`VERSION`](VERSION) and [`CHANGELOG.md`](CHANGELOG.md)).
 
-**Robust Anemia Detection from Pallor Images Considering Skin Pigmentation and Illumination Variability**
+Research code, experiment outputs, figures, and supplementary tables for **Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images**.
 
-This repository contains the analysis notebooks, tabular outputs, figures, and supplementary result tables associated with the study.
+## Final experiment set
 
-## Study overview
+The final reported experiment set contains **1,563 images (901 anemic and 662 non-anemic)** across three image sites:
 
-The study re-evaluates image-based anemia screening under a leakage-aware protocol using three pediatric pallor-image datasets (palm, fingernail, and conjunctiva). The audited and cleaned collection contains 1,345 images: 519 Palm, 312 Nail, and 514 Conjunctiva images.
+| Site | Anemic | Non-anemic | Total |
+|---|---:|---:|---:|
+| Palm | 302 | 218 | 520 |
+| Nail | 307 | 221 | 528 |
+| Conjunctiva | 292 | 223 | 515 |
+| **Pooled** | **901** | **662** | **1,563** |
 
-The experiments cover 14 algorithm families on clean Palm data (with two SVM configurations), replication of an augmentation-before-splitting protocol, single-site versus pooled models, ROI segmentation and color-normalization ablations, image-brightness subgroup analysis, and robustness to image degradations.
+The dataset-cleaning audit also records an intermediate set of 1,567 images (904 anemic and 663 non-anemic). Four Nail images were subsequently excluded during the final leakage audit; the 1,563-image set is used for the final experiment tables.
 
 ## Repository structure
 
-```text
-.
-├── README.md
-├── CITATION.cff
-├── LICENSE
-├── requirements.txt
-├── .gitignore
-├── dataset-info/
-│   └── DATASET_GUIDE.md
-├── notebooks/
-│   ├── README.md
-│   └── 16–25 experiment notebooks
-├── results/
-│   ├── README.md
-│   ├── csv/
-│   └── figures/
-│       ├── confusion_matrix/
-│       ├── manuscript/
-│       │   ├── Figure_1.jpg
-│       │   ├── Figure_2.jpg
-│       │   ├── Figure_3.jpg
-│       │   ├── Figure_4.jpg
-│       │   ├── Figure_5.jpg
-│       │   └── Figure_6.jpg
-│       └── training-curves/
-└── supplementary/
-    ├── README.md
-    ├── Supplementary_Table_S1_Full_Baseline.csv
-    ├── Supplementary_Table_S2_CNN_Experiments.csv
-    ├── Supplementary_Table_S3_CNN_Training_History.csv
-    └── Supplementary_Description.md
-```
+| Path | Contents |
+|---|---|
+| `dataset-info/` | Dataset source records, expected local folder layout, and sample counts |
+| `notebooks/` | Executable experiment notebooks 16–25 and their index |
+| `results/audit/` | Dataset-cleaning audit summaries in JSON |
+| `results/csv/` | Experiment-level CSV outputs and manuscript-aligned Tables I–XI |
+| `results/csv/large/` | Compressed, detailed CSV artifacts that are larger or mainly used for audit/reanalysis |
+| `results/figures/confusion_matrix/` | Seven confusion-matrix figures in SVG format |
+| `results/figures/training-curves/` | Two CNN training-history figures in SVG format |
+| `results/figures/manuscript/` | Nine current manuscript figure images (`Figure_1.png`–`Figure_9.png`) matching the latest paper draft |
+| `supplementary/` | Supplementary Tables S1–S3 in CSV format |
 
-The notebook filenames retain the original upload suffixes (for example, `(1)` or `(2)`) where present. See [notebooks/README.md](notebooks/README.md) for the exact filenames and their purpose.
+Folder-level guides are provided throughout the repository. Start with [`notebooks/README.md`](notebooks/README.md) for the experiment sequence, [`results/README.md`](results/README.md) for the output map, and [`supplementary/README.md`](supplementary/README.md) for the supplementary tables.
 
 ## Dataset access
 
-The source images are not redistributed in this repository. Obtain them from the original Mendeley Data records and follow their terms of use:
+Raw pediatric images are **not redistributed** in this repository. Obtain the three source datasets from their original Mendeley Data records and follow each record's current license and terms:
 
 - Palm: [10.17632/ccr8cm22vz.1](https://doi.org/10.17632/ccr8cm22vz.1)
 - Nail: [10.17632/2xx4j3kjg2.1](https://doi.org/10.17632/2xx4j3kjg2.1)
 - Conjunctiva: [10.17632/nt7r8hv2pz.1](https://doi.org/10.17632/nt7r8hv2pz.1)
 
-After obtaining the data, arrange the folders as described in [dataset-info/DATASET_GUIDE.md](dataset-info/DATASET_GUIDE.md). Do not commit raw images, subject identifiers, or other restricted data to this repository.
+Arrange the images as described in [`dataset-info/DATASET_GUIDE.md`](dataset-info/DATASET_GUIDE.md): `Dataset_Multisite/{Palm,Nail,Conjunctiva}/`. Do not commit raw pediatric images, subject identifiers, or restricted data.
 
-## Quick start (Google Colab)
+## Reproducing the experiments
 
-1. Obtain the three datasets from their source records.
-2. Upload or mount a Google Drive folder named `Dataset_Multisite` with the subfolders `Palm/`, `Nail/`, and `Conjunctiva/`.
-3. Open the required notebook from `notebooks/` in Google Colab.
-4. Check the configuration cell for the dataset path and output path. The notebooks currently use `/content/drive/MyDrive/Dataset_Multisite` and write generated CSV files to `/content/drive/MyDrive/hasil_revisi`.
-5. Run the notebook cells in order. The classical ML notebooks install XGBoost, LightGBM, and CatBoost as needed. The CNN notebooks use TensorFlow/Keras; a Colab GPU runtime is recommended for CNN training.
-6. Compare generated outputs with the committed files in `results/csv/`.
+The notebooks were prepared for Google Colab and use Google Drive paths. The default dataset path shown in the notebooks is `/content/drive/MyDrive/Dataset_Multisite`; inspect each notebook's configuration cells and adjust paths when necessary. Package versions recorded by the experiments are listed in [`requirements.txt`](requirements.txt), although Colab's preinstalled environment may require compatible versions.
 
-The experiments use seed 42 and sorted filename order. Some analyses use repeated stratified 5-fold cross-validation with 5 repeats. Each notebook documents its inputs, outputs, and experimental role.
+Recommended order:
 
-## Notebook map
+1. Review Notebook 16 carefully. It creates a timestamped backup and then performs dataset auditing/cleaning operations. Verify the backup and the resulting dataset before continuing.
+2. Run the experiment notebooks 17–24 as needed for the corresponding analysis.
+3. Run Notebook 25 after Notebook 23 if the feature-level ablation output is not already available. The repository stores that intermediate artifact as `results/csv/large/fitur_ablasi.csv.gz`; decompress it to the filename expected by Notebook 25 or regenerate it by running Notebook 23.
 
-See [notebooks/README.md](notebooks/README.md) for the exact notebook-to-experiment mapping.
+Notebook 21 is a CNN training workflow. A Colab GPU runtime is recommended to accelerate training, although CPU execution is possible and may take longer. Other notebooks may run on CPU, as noted in their own instructions. See [`notebooks/README.md`](notebooks/README.md) for the purpose, dependencies, and outputs of each notebook.
 
 ## Results and supplementary material
 
-- [All committed CSV outputs](results/csv/)
-- [Manuscript-aligned CSV exports for Tables I–IX](results/README.md)
-- [Final manuscript figures — Figure 1–6](results/figures/manuscript/)
-- [Figure inventory, captions, and exact filenames](results/figures/README.md)
-- [Confusion matrices from notebook runs](results/figures/confusion_matrix/)
-- [CNN training curves from notebook runs](results/figures/training-curves/)
-- [Supplementary material index](supplementary/README.md)
-- [Supplementary Table S1 — full Palm baseline metrics](supplementary/Supplementary_Table_S1_Full_Baseline.csv)
-- [Supplementary Table S2 — CNN configurations and results](supplementary/Supplementary_Table_S2_CNN_Experiments.csv)
-- [Supplementary Table S3 — CNN epoch-wise training history](supplementary/Supplementary_Table_S3_CNN_Training_History.csv)
-
-Table S1 provides the full per-configuration baseline metrics requested in the manuscript. It contains 14 algorithm families; SVM is represented by two separately reported configurations. The CSV therefore has 15 configuration rows for each of the two train/validation/test split schemes. The manuscript's Table II retains the selected-baseline accuracy and test AUC values for both split schemes. The full per-configuration classical baseline detail is provided in Supplementary Table S1 from Appendix A1 of the final experiment report; Stacking confusion counts are reconstructed from class supports and reported sensitivity/specificity, while validation accuracy remains blank because it is not reported. The earlier computational snapshot is preserved separately as baseline_palm_data_bersih_computational_run.csv.
-
-## Computational environment
-
-The saved notebook outputs report Python 3.13.16 or 3.13.18, NumPy 2.4.6, pandas 2.2.3, OpenCV 4.14.0, scikit-learn 1.6.1, and LightGBM 4.6.0. The Python patch version differs between recorded notebook sessions. Versions for some optional packages (including TensorFlow, XGBoost, and CatBoost) were not consistently recorded; see the notebook installation and output cells. The accompanying `requirements.txt` records the known versions and lists the remaining dependencies without claiming unverified pins.
+- **Manuscript-aligned tables:** Tables I–XI are exported as individual CSV files in [`results/csv/`](results/csv/README.md).
+- **Detailed experiment outputs:** Baseline, pooling, robustness, ablation, fairness, and CNN history files are also available in `results/csv/`.
+- **Experiment figures:** Seven confusion matrices and two CNN training curves are supplied as individual SVG files. See [`results/figures/README.md`](results/figures/README.md).
+- **Manuscript figures:** The nine latest manuscript figures (`Figure_1.png`–`Figure_9.png`) are stored in `results/figures/manuscript/`.
+- **Supplementary tables:** S1 contains the expanded baseline metrics, S2 the CNN experiment results, and S3 the CNN epoch-level training history. See [`supplementary/README.md`](supplementary/README.md).
 
 ## Interpretation and limitations
 
-The image-brightness groups are proxies derived from image pixels, not validated or self-reported skin-tone measurements. Subject identifiers were unavailable, so subject-level separation could not be verified. The manuscript discusses these and other limitations; the reported results should be interpreted in that context.
+Brightness-based groups are image-derived proxies and must not be interpreted as validated or self-reported skin-pigmentation measurements. Subject identifiers were unavailable, so subject-level separation could not be independently verified. Interpret fairness and generalization results in light of these limitations.
 
 ## Citation
 
-If you use the code or supplementary tables, cite the associated manuscript and this repository. A machine-readable repository citation is provided in [CITATION.cff](CITATION.cff). The manuscript is not assigned a DOI in this repository yet.
+If you use the code or supplementary exports, cite the associated research manuscript and this repository. Repository citation metadata is provided in [`CITATION.cff`](CITATION.cff). A manuscript DOI has not been recorded in this repository.
 
-## Software license
+## License
 
-The original code and documentation contributed by Daniel Halasson Hasibuan, Indra Saputra, and Rasya Halim are released under the [MIT License](LICENSE). The MIT License applies only to the original materials owned by these contributors in this repository. Third-party datasets and other externally sourced materials remain subject to their respective licenses and terms of use.
-
-
-## Manuscript-aligned result exports
-
-The manuscript Table I–IX CSV exports are indexed in [results/README.md](results/README.md). They transcribe the values in the 9 November 2026 draft and are not a substitute for the source notebooks or a claim that all experiments were rerun from scratch. The six final manuscript JPEGs (Figure_1.jpg–Figure_6.jpg) are committed under [results/figures/manuscript/](results/figures/manuscript/); their captions and exact case-sensitive paths are listed in [the figure inventory](results/figures/README.md).
-
-For the detailed baseline outputs, note that the Stacking Ensemble accuracy/AUC values in the draft differ from the earlier saved Notebook 20 result. The earlier output is preserved as a computational-run snapshot; the reader-facing baseline and Supplementary Table S1 reflect the manuscript. Unreported Stacking confusion counts and derived metrics are intentionally left blank.
+Original code and documentation contributed by Daniel Halasson Hasibuan, Indra Saputra, and Rasya Halim are released under the [MIT License](LICENSE). This license applies only to original materials owned by these contributors. Third-party datasets and externally sourced materials remain subject to their own licenses and terms.

@@ -5,6 +5,8 @@ data/private/
 
 # Generated local outputs / model weights
 hasil_revisi/
+hasil_revisi_v2/
+Dataset_Multisite_BACKUP_*/
 *.h5
 *.keras
 *.ckpt

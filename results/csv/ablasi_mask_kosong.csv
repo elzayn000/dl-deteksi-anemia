@@ -1,10 +1,10 @@
 perlakuan,total,anemic,Palm,Nail,Conjunctiva
-CLAHE (mask citra asli),38,26,2,23,13
-CLAHE (mask dari hasil),62,41,5,23,34
-K-Means + filter,122,74,86,23,13
-Otsu + filter,130,77,94,23,13
-Tanpa segmentasi + filter (Original),38,26,2,23,13
-WB+CLAHE (mask citra asli),38,26,2,23,13
-WB+CLAHE (mask dari hasil),28,18,1,16,11
-White Balance (mask citra asli),38,26,2,23,13
+CLAHE (mask citra asli),47,27,2,32,13
+CLAHE (mask dari hasil),76,44,5,37,34
+K-Means + filter,131,75,86,32,13
+Otsu + filter,139,78,94,32,13
+Tanpa segmentasi + filter (Original),47,27,2,32,13
+WB+CLAHE (mask citra asli),47,27,2,32,13
+WB+CLAHE (mask dari hasil),36,21,1,24,11
+White Balance (mask citra asli),47,27,2,32,13
 White Balance (mask dari hasil),4,3,0,3,1
