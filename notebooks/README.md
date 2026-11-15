@@ -6,15 +6,15 @@ This directory contains the saved Jupyter notebooks used to audit the dataset an
 
 | Notebook | Purpose | Main outputs / connection |
 |---|---|---|
-| `16_Dataset_Cleaning_v3.ipynb` | Backs up the Drive dataset, audits label typos, applies corrected filename renaming, and performs the documented cleaning checks. | Cleaning statistics, typo audit, and rename-list artifacts; see `results/audit/` and `results/csv/large/`. |
-| `17_Pooling_Konsisten (2).ipynb` | Compares single-site and pooled experiments across Palm, Nail, and Conjunctiva, including feature and split variants. | `hasil_eksperimen_konsisten.csv`; manuscript pooling results. |
-| `18_Robustness_Konsisten (1).ipynb` | Evaluates robustness to Gaussian noise, low light, Gaussian blur, and image rotation. | `hasil_robustness_konsisten.csv`; robustness table export. |
-| `19_Replikasi_Protokol_Paper (2).ipynb` | Compares augmentation-before-splitting, split-before-augmentation, and no-augmentation protocols on Palm data. | `replikasi_protokol_paper.csv`; protocol-replication table. |
-| `20_Baseline_Palm_Data_Bersih (1).ipynb` | Re-evaluates classical machine-learning baselines on cleaned Palm data using the reported split schemes. | `baseline_palm_data_bersih.csv`; detailed baseline export in Supplementary Table S1. |
+| `16_Dataset_Cleaning_v3.ipynb` | Backs up the Drive dataset, audits label typos, applies corrected filename renaming, and performs the documented cleaning checks. | Cleaning statistics, typo audit, and rename-list artifacts; see `../results/audit/` and `../results/csv/large/`. |
+| `17_Pooling_Konsisten.ipynb` | Compares single-site and pooled experiments across Palm, Nail, and Conjunctiva, including feature and split variants. | `hasil_eksperimen_konsisten.csv`; manuscript pooling results. |
+| `18_Robustness_Konsisten.ipynb` | Evaluates robustness to Gaussian noise, low light, Gaussian blur, and image rotation. | `hasil_robustness_konsisten.csv`; robustness table export. |
+| `19_Replikasi_Protokol_Paper.ipynb` | Compares augmentation-before-splitting, split-before-augmentation, and no-augmentation protocols on Palm data. | `replikasi_protokol_paper.csv`; protocol-replication table. |
+| `20_Baseline_Palm_Data_Bersih.ipynb` | Re-evaluates classical machine-learning baselines on cleaned Palm data using the reported split schemes. | `baseline_palm_data_bersih.csv`; detailed baseline export in Supplementary Table S1. |
 | `21_Baseline_CNN_Palm_Data_Bersih.ipynb` | Trains the reference AlexNet and MobileNetV2 baselines on cleaned Palm data. | `baseline_cnn_palm_data_bersih.csv`, `riwayat_pelatihan_cnn.csv`, and the CNN training curve; see S2–S3. |
 | `22_Varian_CNN_Modifikasi_Penulis.ipynb` | Evaluates author-modified CNN configurations, including regularization/optimizer variants and early stopping. | `varian_cnn_palm_data_bersih.csv`, `riwayat_varian_cnn.csv`, and the variant training curve; see S2–S3. |
 | `23_Ablasi_Segmentasi_Normalisasi.ipynb` | Tests ROI segmentation and color-normalization treatments, with single-split and repeated cross-validation analyses. | Ablation summaries/comparisons and the feature-level `fitur_ablasi.csv` intermediate. |
-| `24_Fairness_Kecerahan_Citra (1).ipynb` | Examines performance across image-brightness groupings and evaluates paired contrasts. | The `fairness_*.csv` outputs; brightness-group and contrast tables. |
+| `24_Fairness_Kecerahan_Citra.ipynb` | Examines performance across image-brightness groupings and evaluates paired contrasts. | The `fairness_*.csv` outputs; brightness-group and contrast tables. |
 | `25_Kontras_Ablasi_Tambahan.ipynb` | Calculates additional paired ablation contrasts and sensitivity analyses for empty masks. | `ablasi_kontras_tambahan.csv` and `ablasi_mask_kosong.csv`; sensitivity table export. |
 
 ## Recommended execution order
