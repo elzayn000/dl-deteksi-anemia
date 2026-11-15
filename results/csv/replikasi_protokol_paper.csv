@@ -1,0 +1,4 @@
+,Naive Bayes,"k-NN (k=100, Euclidean)","SVM (sigmoid, C=100, iter=100, tol=0,1)","Decision Tree (leaf>=10, split>=5)",LightGBM (100)
+A. Augmentasi lalu split (seperti [1]),56.92,66.73,48.46,80.0,99.42
+B. Split lalu augmentasi data latih,54.81,63.46,55.77,73.08,72.12
+C. Tanpa augmentasi,54.81,57.69,48.08,67.31,71.15

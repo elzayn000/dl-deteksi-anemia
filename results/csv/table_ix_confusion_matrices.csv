@@ -1,0 +1,7 @@
+model,scheme,TP,TN,FP,FN,sensitivity_pct,specificity_pct,accuracy_pct_baseline
+Nail single-site (LightGBM),80:20,46,25,19,16,74.2,56.8,67.0 (58.5)
+Pooled Otsu + site_id (LightGBM),80:20,126,84,49,54,70.0,63.2,67.1 (57.5)
+AlexNet (configuration of [12]),70:10:20,60,0,44,0,100.0,0.0,57.7 (57.7)
+AlexNet (configuration of [12]),80:10:10,30,0,22,0,100.0,0.0,57.7 (57.7)
+MobileNetV2 (early stopping),70:10:20,50,20,24,10,83.3,45.5,67.3 (57.7)
+MobileNetV2 (early stopping),80:10:10,24,11,11,6,80.0,50.0,67.3 (57.7)

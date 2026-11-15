@@ -1,0 +1,7 @@
+treatment,total,palm,nail,conjunctiva
+Original,47,2,32,13
+WB (result mask),4,0,3,1
+WB + CLAHE (result mask),36,1,24,11
+CLAHE (result mask),76,5,37,34
+Otsu + filter,139,94,32,13
+K-Means + filter,131,86,32,13

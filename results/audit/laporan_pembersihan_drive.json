@@ -1,0 +1,46 @@
+{
+  "cleaning_date": "2026-11-11 08:20:58",
+  "operations_performed": {
+    "typo_rename_count": 1625,
+    "duplicate_identik_deleted": 0,
+    "duplicate_md5_deleted": 6617,
+    "numbered_copies_deleted": 5488,
+    "variant_files_deleted": 0
+  },
+  "final_distribution": [
+    {
+      "Site": "Palm",
+      "Anemic": 302,
+      "Non-Anemic": 218,
+      "Other": 0,
+      "Total": 520
+    },
+    {
+      "Site": "Nail",
+      "Anemic": 310,
+      "Non-Anemic": 222,
+      "Other": 0,
+      "Total": 532
+    },
+    {
+      "Site": "Conjunctiva",
+      "Anemic": 292,
+      "Non-Anemic": 223,
+      "Other": 0,
+      "Total": 515
+    }
+  ],
+  "totals": {
+    "total_anemic": 904,
+    "total_non_anemic": 663,
+    "total_files": 1567,
+    "prevalence_anemic_pct": 57.69
+  },
+  "verification": {
+    "remaining_typo": 0,
+    "remaining_duplicates_md5": 0,
+    "remaining_numbered_files": 0,
+    "remaining_variant_files": 0
+  },
+  "backup_location": "/content/drive/MyDrive/Dataset_Multisite_BACKUP_20261111_072008"
+}

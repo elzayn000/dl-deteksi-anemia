@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="540" viewBox="0 0 1264 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="632.0" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="600" fill="#151515">Notebook 18 - Pooled, 80:20</text>
+<text x="169.0" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#171717">Original</text>
+<text x="112" y="113" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="112" y="177" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="152.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="216.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="184" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Prediksi</text>
+<rect x="120" y="89" width="64" height="64" fill="#7facd0" stroke="#ffffff" stroke-width="1.5"/>
+<text x="152.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">59</text>
+<text x="152.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(44.4%)</text>
+<rect x="184" y="89" width="64" height="64" fill="#669bc6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="216.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">74</text>
+<text x="216.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(55.6%)</text>
+<rect x="120" y="153" width="64" height="64" fill="#81add1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="152.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">58</text>
+<text x="152.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(32.2%)</text>
+<rect x="184" y="153" width="64" height="64" fill="#1665a6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="216.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">122</text>
+<text x="216.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(67.8%)</text>
+<rect x="120" y="89" width="128" height="128" fill="none" stroke="#354250" stroke-width="1"/>
+<text x="479.0" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#171717">Gaussian Noise (sigma=15)</text>
+<text x="422" y="113" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="422" y="177" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="462.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="526.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="494" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Prediksi</text>
+<rect x="430" y="89" width="64" height="64" fill="#aac8e1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="462.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">38</text>
+<text x="462.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(28.6%)</text>
+<rect x="494" y="89" width="64" height="64" fill="#5690c0" stroke="#ffffff" stroke-width="1.5"/>
+<text x="526.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">95</text>
+<text x="526.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(71.4%)</text>
+<rect x="430" y="153" width="64" height="64" fill="#a4c4df" stroke="#ffffff" stroke-width="1.5"/>
+<text x="462.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">42</text>
+<text x="462.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(23.3%)</text>
+<rect x="494" y="153" width="64" height="64" fill="#1665a6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="526.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">138</text>
+<text x="526.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(76.7%)</text>
+<rect x="430" y="89" width="128" height="128" fill="none" stroke="#354250" stroke-width="1"/>
+<text x="789.0" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#171717">Low Light (x0.5)</text>
+<text x="732" y="113" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="732" y="177" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="772.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="836.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="804" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Prediksi</text>
+<rect x="740" y="89" width="64" height="64" fill="#a8c7e0" stroke="#ffffff" stroke-width="1.5"/>
+<text x="772.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">39</text>
+<text x="772.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(29.3%)</text>
+<rect x="804" y="89" width="64" height="64" fill="#558fbf" stroke="#ffffff" stroke-width="1.5"/>
+<text x="836.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">94</text>
+<text x="836.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(70.7%)</text>
+<rect x="740" y="153" width="64" height="64" fill="#a0c2dd" stroke="#ffffff" stroke-width="1.5"/>
+<text x="772.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">44</text>
+<text x="772.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(24.4%)</text>
+<rect x="804" y="153" width="64" height="64" fill="#1665a6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="836.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">136</text>
+<text x="836.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(75.6%)</text>
+<rect x="740" y="89" width="128" height="128" fill="none" stroke="#354250" stroke-width="1"/>
+<text x="1099.0" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#171717">Blur (15x15)</text>
+<text x="1042" y="113" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="1042" y="177" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="1082.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="1146.0" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="1114" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Prediksi</text>
+<rect x="1050" y="89" width="64" height="64" fill="#96bbda" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1082.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">49</text>
+<text x="1082.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(36.8%)</text>
+<rect x="1114" y="89" width="64" height="64" fill="#6097c4" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1146.0" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">84</text>
+<text x="1146.0" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(63.2%)</text>
+<rect x="1050" y="153" width="64" height="64" fill="#98bcda" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1082.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">48</text>
+<text x="1082.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(26.7%)</text>
+<rect x="1114" y="153" width="64" height="64" fill="#1665a6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1146.0" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">132</text>
+<text x="1146.0" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(73.3%)</text>
+<rect x="1050" y="89" width="128" height="128" fill="none" stroke="#354250" stroke-width="1"/>
+<text x="169.0" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#171717">Rotasi (10 derajat)</text>
+<text x="112" y="351" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="112" y="415" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="152.0" y="472" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Non-anemic</text>
+<text x="216.0" y="472" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Anemic</text>
+<text x="184" y="489" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333">Prediksi</text>
+<rect x="120" y="327" width="64" height="64" fill="#92b8d8" stroke="#ffffff" stroke-width="1.5"/>
+<text x="152.0" y="354" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">55</text>
+<text x="152.0" y="371" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(41.4%)</text>
+<rect x="184" y="327" width="64" height="64" fill="#70a2ca" stroke="#ffffff" stroke-width="1.5"/>
+<text x="216.0" y="354" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">78</text>
+<text x="216.0" y="371" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(58.6%)</text>
+<rect x="120" y="391" width="64" height="64" fill="#a8c7e1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="152.0" y="418" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#17212b">40</text>
+<text x="152.0" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#17212b">(22.2%)</text>
+<rect x="184" y="391" width="64" height="64" fill="#1665a6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="216.0" y="418" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#fff">140</text>
+<text x="216.0" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#fff">(77.8%)</text>
+<rect x="120" y="327" width="128" height="128" fill="none" stroke="#354250" stroke-width="1"/>
+</svg>

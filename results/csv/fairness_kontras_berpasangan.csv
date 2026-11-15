@@ -1,0 +1,5 @@
+fitur,pengelompokan,kelompok_gelap,kelompok_terang,selisih_sens,ci_bawah_sens,ci_atas_sens,selisih_spes,ci_bawah_spes,ci_atas_spes,selisih_auc,ci_bawah_auc,ci_atas_auc
+Original,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),5.28,-2.05,12.17,18.54,9.06,27.5,14.98,8.81,21.26
+Original,Tertil L* dalam situs,T1 gelap,T3 terang,7.47,0.41,14.47,7.69,-1.68,16.87,13.21,6.75,19.27
+Otsu,"ITA (Chardon, digabung)",Gelap (ITA<10),Terang (ITA>=41),7.83,0.95,14.19,5.53,-3.91,14.68,6.43,0.01,12.91
+Otsu,Tertil L* dalam situs,T1 gelap,T3 terang,12.7,6.17,19.17,-5.98,-15.13,3.29,3.08,-2.83,9.8
