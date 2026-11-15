@@ -1,5 +1,7 @@
 # Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images
 
+**Repository version:** `1.1.0` (see [`VERSION`](VERSION) and [`CHANGELOG.md`](CHANGELOG.md)).
+
 Research code, experiment outputs, figures, and supplementary tables for **Re-evaluating Machine Learning-Based Anemia Detection from Palm, Nail, and Conjunctiva Images**.
 
 ## Final experiment set
