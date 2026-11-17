@@ -1,0 +1,4 @@
+prefix_pattern,site,actual_label,file_count,example_filename,source_method,verification_status
+Anmeic-fn-,Nail,anemic,38,Anmeic-fn-0001.png,pattern_matching_filename_prefix,VERIFIED_FROM_daftar_rename_typo_csv_AND_audit_typo_lengkap_csv
+Non-Anrmic-FN-,Nail,non-anemic,202,Non-Anrmic-FN-001.png,pattern_matching_filename_prefix,VERIFIED_FROM_daftar_rename_typo_csv_AND_audit_typo_lengkap_csv
+TOTAL,Nail,mixed,240,Anmeic-fn-0001.png,audit_kategori_file_csv_row_Nail_tanpa_kurung_TYPO_DITEMUKAN,VERIFIED_FROM_TWO_INDEPENDENT_SOURCES

@@ -1,0 +1,36 @@
+metric,value,unit,method,source
+accuracy_pct,67.09,%,Pooled Otsu+site_id 80:20 test set,anemia_model_3.joblib_evaluation_metrics
+auc_pct,69.77,%,Pooled Otsu+site_id 80:20 test set,anemia_model_3.joblib_evaluation_metrics
+sensitivity_pct,70.0,%,TP/(TP+FN),anemia_model_3.joblib_evaluation_metrics
+specificity_pct,63.16,%,TN/(TN+FP),anemia_model_3.joblib_evaluation_metrics
+f1_pct,70.99,%,Harmonic mean precision/recall,anemia_model_3.joblib_evaluation_metrics
+baseline_majority_pct,57.51,%,Majority-class baseline,anemia_model_3.joblib_evaluation_metrics
+test_set_size,313,images,20% held-out test set,anemia_model_3.joblib_evaluation_metrics
+training_set_size,1250,images,80% training split,anemia_model_3.joblib_n_training_samples
+tp,126,count,True Positives (anemic correctly classified),anemia_model_3.joblib_evaluation_metrics
+tn,84,count,True Negatives (non-anemic correctly classified),anemia_model_3.joblib_evaluation_metrics
+fp,49,count,False Positives,anemia_model_3.joblib_evaluation_metrics
+fn,54,count,False Negatives,anemia_model_3.joblib_evaluation_metrics
+scheme,80:20,,Train/test split scheme,anemia_model_3.joblib_evaluation_metrics
+split_method,"split_idx (stratify=y, sesuai NB 17 Cell 3)",,Stratified split method,anemia_model_3.joblib_evaluation_metrics
+dataset_total,1563,images,Total clean typo-corrected images,anemia_model_3.joblib_dataset_info
+dataset_anemic,901,images,Anemic class count,anemia_model_3.joblib_dataset_info
+dataset_non_anemic,662,images,Non-anemic class count,anemia_model_3.joblib_dataset_info
+prevalence_anemic_pct,57.6,%,Anemic prevalence,anemia_model_3.joblib_dataset_info
+site_palm_total,520,images,Palm total images,anemia_model_3.joblib_dataset_info
+site_palm_anemic,302,images,Palm anemic count,anemia_model_3.joblib_dataset_info
+site_palm_non_anemic,218,images,Palm non-anemic count,anemia_model_3.joblib_dataset_info
+site_nail_total,528,images,Nail total images,anemia_model_3.joblib_dataset_info
+site_nail_anemic,307,images,Nail anemic count,anemia_model_3.joblib_dataset_info
+site_nail_non_anemic,221,images,Nail non-anemic count,anemia_model_3.joblib_dataset_info
+site_conjunctiva_total,515,images,Conjunctiva total images,anemia_model_3.joblib_dataset_info
+site_conjunctiva_anemic,292,images,Conjunctiva anemic count,anemia_model_3.joblib_dataset_info
+site_conjunctiva_non_anemic,223,images,Conjunctiva non-anemic count,anemia_model_3.joblib_dataset_info
+cv_auc_reference,69.77,%,Cross-validated AUC (paper Table V),paper_Table_V_ablation_pooled_otsu_site_id
+delta_auc_deployment_vs_cv,+0.00,percentage_points,deployment_auc_minus_cv_auc,manual_calculation
+model_name,LightGBM Pooled Otsu + site_id,,LightGBM Pooled Otsu + site_id,anemia_model_3.joblib_metadata
+n_estimators,100,,LightGBM n_estimators,anemia_model_3.joblib_metadata
+random_state,42,,Random seed,anemia_model_3.joblib_metadata
+training_date,2026-11-14 03:33:49,,Model training timestamp,anemia_model_3.joblib_metadata
+threshold,0.5,,Decision threshold,anemia_model_3.joblib_metadata
+feature_names,"a_t,b_t,g_t,site_id",,Features used by model,anemia_model_3.joblib_metadata
