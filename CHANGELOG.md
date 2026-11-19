@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.1 — 2026-11-19
+
+This is a metadata and archival update following the activation of the Zenodo integration. It does not introduce new experiments, performance results, or changes to the reported research findings.
+
+- Updates the repository version to `1.1.1`.
+- Updates `CITATION.cff` with version `1.1.1` and release date `2026-11-19`.
+- Prepares a new versioned repository snapshot for archival and DOI registration through Zenodo.
+- Retains the research notebooks, experimental results, manuscript figures, and supplementary materials from version `1.1.0`.
+
 ## 1.1.0 — 2026-11-15
 
 This version aligns the repository with the final research package and the latest Sinta 1 manuscript draft.
